@@ -84,7 +84,7 @@ body:
     id: resources
     attributes:
       label: 담당자/협업자 및 참고 자료
-      placeholder: @owner, @reviewer, 문서 링크, 이슈/PR 참조 등
+      placeholder: "@owner, @reviewer, 문서 링크, 이슈/PR 참조 등"
   - type: checkboxes
     id: checklist
     attributes:
