@@ -4,7 +4,7 @@ title: "[계획] "
 labels: ["계획표"]
 body:
   - type: input
-    id: start_dat표
+    id: start_date
     attributes:
       label: 시작일
       placeholder: 2025-10-01
@@ -60,19 +60,41 @@ body:
       label: 일정/타임라인 세부 계획
       description: 주차별 또는 일자별 계획을 작성해 주세요.
       placeholder: |
-        주차/일자 | 작업 | 담당 | 예상 소요
-        ---------|------|------|---------
-        10/01    | ...  | ...  | 4h
-        10/02    | ...  | ...  | 6h
+        기간(일자/주차) | 작업 | 담당 | 의존성 | 완료 기준(DoD) | 예상 소요 | 상태
+        --------------|------|------|--------|-----------------|----------|-----
+        10/01 (월)    | 요구사항 정리 킥오프 | @owner | - | 합의된 요구사항 문서 초안 PR 생성 | 4h | ⬜
+        10/02 (화)    | 설계 초안 작성       | @owner | 요구사항 | 설계 초안 문서 PR 생성 | 6h | ⬜
+        10/03 (수)    | 구현(모듈 A)         | @dev1  | 설계    | 단위 테스트 80% 커버리지, 빌드 성공 | 6h | ⬜
+        10/04 (목)    | 테스트/리뷰         | @qa    | 구현    | 테스트 통과, 리뷰 승인 1명 이상  | 4h | ⬜
+        10/05 (금)    | 문서/릴리스 준비     | @owner | 테스트  | 사용자 가이드 갱신, 태그/릴리스 노트 | 3h | ⬜
+        게이트        | 마일스톤 종료 게이트 | 팀     | -      | 성공 기준 달성 여부 점검/회고     | 1h | ⬜
   - type: textarea
     id: tasks
     attributes:
       label: 작업 목록(Checklist)
       description: 가능한 작은 단위로 쪼개 주세요.
       placeholder: |
-        - [ ] 작업 1
-        - [ ] 작업 2
-        - [ ] 작업 3
+        계획/관리
+        - [ ] 킥오프 미팅 일정 확정
+        - [ ] 범위(Scope) 합의 및 기록
+        요구사항
+        - [ ] 요구사항 수집/정리
+        - [ ] 수용 기준(AC) 정의
+        설계
+        - [ ] 설계 초안(PR)
+        - [ ] 리뷰/피드백 반영
+        구현
+        - [ ] 모듈 A 개발 + 단위 테스트
+        - [ ] 모듈 B 개발 + 단위 테스트
+        테스트/검증
+        - [ ] 통합 테스트 시나리오 수립
+        - [ ] 테스트 실행 및 이슈 처리
+        문서/전달
+        - [ ] 사용자/개발자 문서 업데이트
+        - [ ] 릴리스 노트 초안
+        릴리스/회고
+        - [ ] 태그/배포
+        - [ ] 회고(What went well / Learnings)
     validations:
       required: true
   - type: textarea
@@ -84,7 +106,7 @@ body:
     id: resources
     attributes:
       label: 담당자/협업자 및 참고 자료
-      placeholder: @owner, @reviewer, 문서 링크, 이슈/PR 참조 등
+      placeholder: "@owner, @reviewer, 문서 링크, 이슈/PR 참조 등"
   - type: checkboxes
     id: checklist
     attributes:
@@ -93,4 +115,52 @@ body:
         - label: 목표/성공 기준이 측정 가능하게 정의됨
         - label: 작업 목록이 실행 가능한 단위로 분해됨
         - label: 리스크와 완화 계획이 명시됨
+  - type: markdown
+    attributes:
+      value: |
+        관리자 가이드: 자동 assignee/프로젝트 보드 연동
+        
+        1) 기본 assignee 지정(템플릿 상단 설정)
+        - 이 파일 상단에 `assignees` 키를 추가하면 새 이슈 생성 시 기본 담당자가 자동 지정됩니다.
+        - 예시:
+          ```yaml
+          assignees: ["your-id-1", "your-id-2"]
+          ```
+        
+        2) GitHub Actions로 자동 할당 + Projects 보드 추가
+        - 라벨 `계획표`가 달린 신규 이슈를 자동으로 담당자에게 할당하고, 특정 Projects(v2) 보드에 추가할 수 있습니다.
+        - 저장소에 `.github/workflows/auto-plan-routing.yml`을 추가하세요.
+        - 조직/프로젝트에 따라 토큰 권한이 필요할 수 있어 `PROJECT_TOKEN`(project:write 포함 PAT)을 리포지토리 Secret으로 등록하세요.
+        
+        예시 워크플로우:
+        ```yaml
+        name: Auto-assign and add plan issues to Project
+        on:
+          issues:
+            types: [opened, labeled]
+        permissions:
+          contents: read
+          issues: write
+          pull-requests: write
+          project: write
+        jobs:
+          route:
+            if: ${{ github.event.issue.state == 'open' && (github.event.action == 'opened' || (github.event.action == 'labeled' && github.event.label.name == '계획표')) }}
+            runs-on: ubuntu-latest
+            steps:
+              - name: Auto-assign to issue author
+                uses: peter-evans/assign-issue@v2
+                with:
+                  assignees: ${{ github.event.issue.user.login }}
 
+              - name: Add to Project (Projects v2)
+                uses: actions/add-to-project@v0.5.0
+                with:
+                  project-url: https://github.com/orgs/<ORG>/projects/<NUMBER>
+                  github-token: ${{ secrets.PROJECT_TOKEN }}
+        ```
+        - `<ORG>`과 `<NUMBER>`를 실제 조직/프로젝트 번호로 교체하세요.
+        - 조직 프로젝트에 추가하려면 보통 `GITHUB_TOKEN` 대신 `PROJECT_TOKEN`(PAT)이 필요합니다.
+        
+        3) Projects UI에서 자동 추가(대안)
+        - GitHub Projects 설정의 Workflows에서 "Add items added to repositories"를 활성화하면, 해당 저장소 이슈가 보드에 자동으로 추가됩니다.
