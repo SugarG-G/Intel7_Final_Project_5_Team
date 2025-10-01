@@ -1,38 +1,38 @@
-name: 🗓 일정/목표 계획
-description: 스프린트/마일스톤 단위의 목표와 일정을 정의합니다
+name: "🗓 일정/목표 계획"
+description: "스프린트/마일스톤 단위의 목표와 일정을 정의합니다"
 title: "[계획] "
 labels: ["계획표"]
 body:
   - type: input
     id: start_date
     attributes:
-      label: 시작일
-      placeholder: 2025-10-01
+      label: "시작일"
+      placeholder: "2025-10-01"
   - type: input
     id: end_date
     attributes:
-      label: 종료일
-      placeholder: 2025-10-15
+      label: "종료일"
+      placeholder: "2025-10-15"
   - type: dropdown
     id: priority
     attributes:
-      label: 우선순위
+      label: "우선순위"
       options:
-        - 상
-        - 중
-        - 하
+        - "상"
+        - "중"
+        - "하"
   - type: textarea
     id: objective
     attributes:
-      label: 목표 요약
-      description: 한두 문장으로 핵심 목표를 설명해 주세요.
-      placeholder: 예) 10월 2주차에 로그인 안정성 개선 및 문서 보완
+      label: "목표 요약"
+      description: "한두 문장으로 핵심 목표를 설명해 주세요."
+      placeholder: "예) 10월 2주차에 로그인 안정성 개선 및 문서 보완"
     validations:
       required: true
   - type: textarea
     id: success
     attributes:
-      label: 성공 기준(SMART)
+      label: "성공 기준(SMART)"
       placeholder: |
         - [ ] 지표/KPI 1 (측정 방법)
         - [ ] 지표/KPI 2 (측정 방법)
@@ -41,7 +41,7 @@ body:
   - type: textarea
     id: scope
     attributes:
-      label: 범위(해야 할 것 / 하지 않을 것)
+      label: "범위(해야 할 것 / 하지 않을 것)"
       placeholder: |
         Must:
         - ...
@@ -50,15 +50,15 @@ body:
   - type: textarea
     id: deliverables
     attributes:
-      label: 산출물
-      placeholder: 기능 데모, 문서, 리포트, 로그 등
+      label: "산출물"
+      placeholder: "기능 데모, 문서, 리포트, 로그 등"
     validations:
       required: true
   - type: textarea
     id: timeline
     attributes:
-      label: 일정/타임라인 세부 계획
-      description: 주차별 또는 일자별 계획을 작성해 주세요.
+      label: "일정/타임라인 세부 계획"
+      description: "주차별 또는 일자별 계획을 작성해 주세요."
       placeholder: |
         기간(일자/주차) | 작업 | 담당 | 의존성 | 완료 기준(DoD) | 예상 소요 | 상태
         --------------|------|------|--------|-----------------|----------|-----
@@ -71,8 +71,8 @@ body:
   - type: textarea
     id: tasks
     attributes:
-      label: 작업 목록(Checklist)
-      description: 가능한 작은 단위로 쪼개 주세요.
+      label: "작업 목록(Checklist)"
+      description: "가능한 작은 단위로 쪼개 주세요."
       placeholder: |
         계획/관리
         - [ ] 킥오프 미팅 일정 확정
@@ -100,8 +100,8 @@ body:
   - type: textarea
     id: dependencies
     attributes:
-      label: 의존성/리스크/차단 이슈
-      placeholder: 외부 팀 협의, 하드웨어 수급, API 한계 등
+      label: "의존성/리스크/차단 이슈"
+      placeholder: "외부 팀 협의, 하드웨어 수급, API 한계 등"
   - type: textarea
     id: resources
     attributes:
@@ -110,7 +110,7 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: 제출 전 확인
+      label: "제출 전 확인"
       options:
         - label: 목표/성공 기준이 측정 가능하게 정의됨
         - label: 작업 목록이 실행 가능한 단위로 분해됨
