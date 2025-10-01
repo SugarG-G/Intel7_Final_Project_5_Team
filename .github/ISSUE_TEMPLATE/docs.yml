@@ -1,0 +1,27 @@
+name: 📝 문서 작성/수정
+description: 사용자/개발자 문서를 추가하거나 개선합니다
+title: "[문서] "
+labels: ["문서 작성"]
+body:
+  - type: textarea
+    id: target
+    attributes:
+      label: 대상 문서/위치
+      placeholder: README, Getting Started, BSP 포팅 가이드 등
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 변경/추가 내용
+      placeholder: 목차, 예제 코드, 그림, 다이어그램 등
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 체크리스트
+      options:
+        - label: 빌드/실행 단계가 실제로 동작함을 확인
+        - label: 스크린샷/코드 블록/버전 정보 반영
+
