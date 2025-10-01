@@ -1,7 +1,7 @@
 name: "🗓 일정/목표 계획"
 description: "스프린트/마일스톤 단위의 목표와 일정을 정의합니다"
 title: "[계획] "
-labels: ["계획표"]
+labels: ["계획"]
 body:
   - type: input
     id: start_date
