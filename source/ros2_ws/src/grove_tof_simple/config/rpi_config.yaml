@@ -1,0 +1,6 @@
+# 라즈베리파이용 설정
+tof_sensor:
+  serial_port: "/dev/serial0"  # RPi GPIO 14,15 핀
+  baud_rate: 115200
+  publish_rate: 10.0
+  frame_id: "tof_link"
