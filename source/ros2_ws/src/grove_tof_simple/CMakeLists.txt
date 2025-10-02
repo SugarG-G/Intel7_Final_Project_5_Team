@@ -12,6 +12,7 @@ find_package(std_msgs REQUIRED)
 
 # 실행 파일 추가
 add_executable(grove_distance_publisher src/grove_distance_publisher.cpp)
+add_executable(grove_distance_subscriber src/grove_distance_subscriber.cpp)
 
 # 의존성 연결
 ament_target_dependencies(grove_distance_publisher 
@@ -19,9 +20,19 @@ ament_target_dependencies(grove_distance_publisher
   std_msgs
 )
 
+ament_target_dependencies(grove_distance_subscriber 
+  rclcpp 
+  std_msgs
+)
+
 # 실행 파일 설치
 install(TARGETS
   grove_distance_publisher
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  grove_distance_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
 
