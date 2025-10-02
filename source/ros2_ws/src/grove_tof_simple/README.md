@@ -1,14 +1,14 @@
 # Grove ToF Simple
 
-STM32와 Grove ToF 센서에서 거리 데이터를 받아 ROS2 토픽으로 발행하는 간단한 패키지입니다.
+STM32와 Grove ToF 센서에서 거리 데이터를 받아 ROS2 토픽으로 발행하는 간단한 패키지입니다. 현재 미완성.
 
 ## 사용법
 
 ### 1. 빌드
 ```bash
 cd ~/ros2_ws
-colcon build --packages-select grove_tof_simple
 source install/setup.bash
+colcon build --packages-select grove_tof_simple
 ```
 
 ### 2. 실행
@@ -37,7 +37,7 @@ ros2 topic info /tof_range
 
 ## STM32 코드 예시
 
-STM32에서 다음 형태로 데이터를 전송해야 합니다:
+STM32에서 다음 형태로 데이터를 전송해야 합니다: 합의 예정
 
 ```c
 // UART로 전송
