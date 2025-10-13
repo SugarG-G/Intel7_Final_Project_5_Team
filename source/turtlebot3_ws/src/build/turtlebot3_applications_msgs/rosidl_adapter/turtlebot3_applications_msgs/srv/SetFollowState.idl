@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlebot3_applications_msgs/srv/SetFollowState.srv
+// generated code does not contain a copyright notice
+
+
+module turtlebot3_applications_msgs {
+  module srv {
+    module SetFollowState_Request_Constants {
+      const uint8 STOPPED = 0;
+      const uint8 FOLLOW = 1;
+      const uint8 OK = 0;
+      const uint8 ERROR = 1;
+    };
+    @verbatim (language="comment", text=
+      "CONSTANTS")
+    struct SetFollowState_Request {
+      @verbatim (language="comment", text=
+        "Messages" "\n"
+        "" "\n"
+        "STOPPED or FOLLOW")
+      uint8 state;
+    };
+    struct SetFollowState_Response {
+      @verbatim (language="comment", text=
+        "OK or ERROR")
+      uint8 result;
+    };
+  };
+};

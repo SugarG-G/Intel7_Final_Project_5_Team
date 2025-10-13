@@ -1,0 +1,10 @@
+msg/PanoramaImg.idl
+msg/PanoramaImg.msg
+srv/SetFollowState.idl
+srv/SetFollowState.srv
+srv/SetFollowState_Request.msg
+srv/SetFollowState_Response.msg
+srv/TakePanorama.idl
+srv/TakePanorama.srv
+srv/TakePanorama_Request.msg
+srv/TakePanorama_Response.msg

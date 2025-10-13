@@ -1,0 +1,26 @@
+[1.431s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision/build --no-deps symlink_data
+[1.638s] running develop
+[1.807s] running egg_info
+[1.807s] creating turtlebot3_automatic_parking_vision.egg-info
+[1.808s] writing turtlebot3_automatic_parking_vision.egg-info/PKG-INFO
+[1.808s] writing dependency_links to turtlebot3_automatic_parking_vision.egg-info/dependency_links.txt
+[1.808s] writing entry points to turtlebot3_automatic_parking_vision.egg-info/entry_points.txt
+[1.808s] writing requirements to turtlebot3_automatic_parking_vision.egg-info/requires.txt
+[1.808s] writing top-level names to turtlebot3_automatic_parking_vision.egg-info/top_level.txt
+[1.808s] writing manifest file 'turtlebot3_automatic_parking_vision.egg-info/SOURCES.txt'
+[1.810s] reading manifest file 'turtlebot3_automatic_parking_vision.egg-info/SOURCES.txt'
+[1.810s] writing manifest file 'turtlebot3_automatic_parking_vision.egg-info/SOURCES.txt'
+[1.811s] running build_ext
+[1.811s] Creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/lib/python3.10/site-packages/turtlebot3-automatic-parking-vision.egg-link (link to .)
+[1.814s] Installing turtlebot3_automatic_parking_vision script to /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/lib/turtlebot3_automatic_parking_vision
+[1.814s] 
+[1.814s] Installed /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision
+[1.814s] running symlink_data
+[1.814s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/share/ament_index
+[1.814s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/share/ament_index/resource_index
+[1.814s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/share/ament_index/resource_index/packages
+[1.815s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision/resource/turtlebot3_automatic_parking_vision -> /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/share/ament_index/resource_index/packages
+[1.815s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision/package.xml -> /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/share/turtlebot3_automatic_parking_vision
+[1.815s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/share/turtlebot3_automatic_parking_vision/launch
+[1.815s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision/launch/turtlebot3_automatic_parking_vision.launch.py -> /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/share/turtlebot3_automatic_parking_vision/launch
+[1.865s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision' returned '0': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtlebot3_ws/src/install/turtlebot3_automatic_parking_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_automatic_parking_vision/build --no-deps symlink_data

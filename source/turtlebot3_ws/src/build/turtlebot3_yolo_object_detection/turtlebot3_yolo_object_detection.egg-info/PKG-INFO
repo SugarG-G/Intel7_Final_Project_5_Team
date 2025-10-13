@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: turtlebot3-yolo-object-detection
+Version: 1.3.3
+Summary: YOLO Object Detection for TurtleBot3 Examples.
+Home-page: UNKNOWN
+Author: YeonSoo Noh
+Author-email: nys8277@gmail.com
+Maintainer: Pyo
+Maintainer-email: pyo@robotis.com
+License: UNKNOWN
+Keywords: ROS,ROS2,examples,rclpy
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

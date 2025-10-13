@@ -1,0 +1,1 @@
+/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_applications_msgs/rosidl_generator_py/turtlebot3_applications_msgs/srv/_take_panorama_s.c

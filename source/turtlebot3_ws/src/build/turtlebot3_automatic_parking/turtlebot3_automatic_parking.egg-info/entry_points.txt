@@ -1,0 +1,3 @@
+[console_scripts]
+turtlebot3_automatic_parking = turtlebot3_automatic_parking.turtlebot3_automatic_parking:main
+

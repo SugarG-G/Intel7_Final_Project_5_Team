@@ -1,0 +1,27 @@
+[1.472s] Invoking command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker/build --no-deps symlink_data
+[1.677s] running develop
+[1.841s] running egg_info
+[1.841s] creating turtlebot3_aruco_tracker.egg-info
+[1.841s] writing turtlebot3_aruco_tracker.egg-info/PKG-INFO
+[1.841s] writing dependency_links to turtlebot3_aruco_tracker.egg-info/dependency_links.txt
+[1.841s] writing entry points to turtlebot3_aruco_tracker.egg-info/entry_points.txt
+[1.841s] writing requirements to turtlebot3_aruco_tracker.egg-info/requires.txt
+[1.842s] writing top-level names to turtlebot3_aruco_tracker.egg-info/top_level.txt
+[1.842s] writing manifest file 'turtlebot3_aruco_tracker.egg-info/SOURCES.txt'
+[1.844s] reading manifest file 'turtlebot3_aruco_tracker.egg-info/SOURCES.txt'
+[1.844s] writing manifest file 'turtlebot3_aruco_tracker.egg-info/SOURCES.txt'
+[1.846s] running build_ext
+[1.846s] Creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/lib/python3.10/site-packages/turtlebot3-aruco-tracker.egg-link (link to .)
+[1.846s] Installing turtlebot3_aruco_tracker script to /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/lib/turtlebot3_aruco_tracker
+[1.847s] Installing turtlebot3_camera_decoder script to /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/lib/turtlebot3_aruco_tracker
+[1.847s] 
+[1.847s] Installed /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker
+[1.847s] running symlink_data
+[1.847s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/share/ament_index
+[1.847s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/share/ament_index/resource_index
+[1.847s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/share/ament_index/resource_index/packages
+[1.848s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker/resource/turtlebot3_aruco_tracker -> /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/share/ament_index/resource_index/packages
+[1.848s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker/package.xml -> /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/share/turtlebot3_aruco_tracker
+[1.848s] creating /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/share/turtlebot3_aruco_tracker/launch
+[1.848s] symbolically linking /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker/launch/turtlebot3_aruco_tracker.launch.py -> /home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/share/turtlebot3_aruco_tracker/launch
+[1.910s] Invoked command in '/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker' returned '0': PYTHONPATH=/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtlebot3_ws/src/install/turtlebot3_aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/turtlebot3_ws/src/build/turtlebot3_aruco_tracker/build --no-deps symlink_data
