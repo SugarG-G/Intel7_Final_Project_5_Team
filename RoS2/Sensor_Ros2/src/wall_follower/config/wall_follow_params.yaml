@@ -1,0 +1,24 @@
+wall_follow_controller:
+  ros__parameters:
+    desired_distance: 0.20
+    corner_front_distance: 0.32
+    corner_exit_distance: 0.55
+    straight_linear_speed: 0.08
+    turn_linear_speed: 0.05
+    turn_angular_speed: 0.6
+    max_angular_speed: 0.7
+    kp_distance: 1.8
+    kd_distance: 0.25
+    side_angle_center_deg: 95.0
+    side_angle_width_deg: 24.0
+    front_angle_width_deg: 35.0
+    corner_target_count: 4
+    return_kp_linear: 0.5
+    return_kp_angular: 1.5
+    return_linear_limit: 0.08
+    return_angular_limit: 0.6
+    home_tolerance: 0.08
+    home_yaw_tolerance: 0.17
+    home_trigger_distance: 0.30
+    status_publish_period: 0.5
+    map_yaml_path: /home/ubuntu/map.yaml

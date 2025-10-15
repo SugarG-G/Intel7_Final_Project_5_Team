@@ -1,0 +1,7 @@
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_sim/src/mock_main_odom.cpp: In member function ‘void MockMainOdomNode::on_timer()’:
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_sim/src/mock_main_odom.cpp:75:38: error: ‘tf2_geometry_msgs’ has not been declared
+   75 |     odom_msg.pose.pose.orientation = tf2_geometry_msgs::toMsg(q);
+      |                                      ^~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/mock_main_odom.dir/build.make:76: CMakeFiles/mock_main_odom.dir/src/mock_main_odom.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mock_main_odom.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

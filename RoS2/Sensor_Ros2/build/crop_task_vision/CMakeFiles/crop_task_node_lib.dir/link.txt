@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcrop_task_node_lib.a CMakeFiles/crop_task_node_lib.dir/src/crop_task_node.cpp.o
+/usr/bin/ranlib libcrop_task_node_lib.a

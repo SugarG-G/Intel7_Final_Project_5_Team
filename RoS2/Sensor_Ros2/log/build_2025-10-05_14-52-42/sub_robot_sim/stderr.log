@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_sim/src/mock_main_odom.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: 그런 파일이나 디렉터리가 없습니다
+    8 | #include [01;31m[K<tf2/LinearMath/Quaternion.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mock_main_odom.dir/build.make:76: CMakeFiles/mock_main_odom.dir/src/mock_main_odom.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mock_main_odom.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

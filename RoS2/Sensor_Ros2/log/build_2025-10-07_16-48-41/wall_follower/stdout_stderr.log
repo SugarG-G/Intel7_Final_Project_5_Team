@@ -1,0 +1,72 @@
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2026-Mar-03, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self._enforce_underscore(opt, section)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+        (Affected: wall_follower).
+
+        By 2026-Mar-03, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self._enforce_underscore(opt, section)
+running egg_info
+creating ../../build/wall_follower/wall_follower.egg-info
+writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt
+writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt
+writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt
+writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower
+copying wall_follower/wall_follow_terminal.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower
+copying wall_follower/wall_follow_controller.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower
+copying wall_follower/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower
+running install
+running install_lib
+creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower
+copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower/wall_follow_terminal.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower
+copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower/wall_follow_controller.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower
+copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower
+byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower/wall_follow_terminal.py to wall_follow_terminal.cpython-310.pyc
+byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower/wall_follow_controller.py to wall_follow_controller.cpython-310.pyc
+byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/ament_index/resource_index/packages
+copying resource/wall_follower -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower
+creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/launch
+copying launch/wall_follow.launch.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/launch
+creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/config
+copying config/wall_follow_params.yaml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/config
+running install_egg_info
+Copying ../../build/wall_follower/wall_follower.egg-info to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.1.0-py3.10.egg-info
+running install_scripts
+Installing wall_follow_controller script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/wall_follower
+Installing wall_follow_terminal script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/wall_follower
+writing list of installed files to '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/install.log'

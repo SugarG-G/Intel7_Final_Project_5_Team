@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_bringup
+-- Install configuration: ""
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/launch
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/launch/sub_robot_mvp.launch.py
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/config
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/config/controller_params.yaml
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/config/mock_main_odom.yaml
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/ament_index/resource_index/package_run_dependencies/sub_robot_bringup
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/ament_index/resource_index/parent_prefix_path/sub_robot_bringup
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/environment/path.sh
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/environment/path.dsv
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/local_setup.bash
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/local_setup.sh
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/local_setup.zsh
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/local_setup.dsv
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/package.dsv
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/ament_index/resource_index/packages/sub_robot_bringup
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/cmake/sub_robot_bringupConfig.cmake
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/cmake/sub_robot_bringupConfig-version.cmake
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup/share/sub_robot_bringup/package.xml

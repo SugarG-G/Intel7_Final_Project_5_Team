@@ -1,0 +1,339 @@
+[0.000000] (-) TimerEvent: {}
+[0.000575] (-) JobUnselected: {'identifier': 'sub_robot_bringup'}
+[0.000806] (-) JobUnselected: {'identifier': 'sub_robot_core'}
+[0.001034] (-) JobUnselected: {'identifier': 'sub_robot_sim'}
+[0.001295] (wall_follower) JobQueued: {'identifier': 'wall_follower', 'dependencies': OrderedDict()}
+[0.001348] (wall_follower) JobStarted: {'identifier': 'wall_follower'}
+[0.099965] (-) TimerEvent: {}
+[0.200139] (-) TimerEvent: {}
+[0.300303] (-) TimerEvent: {}
+[0.400489] (-) TimerEvent: {}
+[0.500712] (-) TimerEvent: {}
+[0.600990] (-) TimerEvent: {}
+[0.701340] (-) TimerEvent: {}
+[0.801602] (-) TimerEvent: {}
+[0.901808] (-) TimerEvent: {}
+[1.002013] (-) TimerEvent: {}
+[1.102214] (-) TimerEvent: {}
+[1.202491] (-) TimerEvent: {}
+[1.302764] (-) TimerEvent: {}
+[1.402946] (-) TimerEvent: {}
+[1.503313] (-) TimerEvent: {}
+[1.603467] (-) TimerEvent: {}
+[1.703744] (-) TimerEvent: {}
+[1.803910] (-) TimerEvent: {}
+[1.904076] (-) TimerEvent: {}
+[2.004240] (-) TimerEvent: {}
+[2.104407] (-) TimerEvent: {}
+[2.204621] (-) TimerEvent: {}
+[2.304807] (-) TimerEvent: {}
+[2.404966] (-) TimerEvent: {}
+[2.505165] (-) TimerEvent: {}
+[2.605381] (-) TimerEvent: {}
+[2.705552] (-) TimerEvent: {}
+[2.805775] (-) TimerEvent: {}
+[2.905975] (-) TimerEvent: {}
+[3.006224] (-) TimerEvent: {}
+[3.106384] (-) TimerEvent: {}
+[3.206531] (-) TimerEvent: {}
+[3.306684] (-) TimerEvent: {}
+[3.406848] (-) TimerEvent: {}
+[3.507002] (-) TimerEvent: {}
+[3.607155] (-) TimerEvent: {}
+[3.707313] (-) TimerEvent: {}
+[3.807517] (-) TimerEvent: {}
+[3.907706] (-) TimerEvent: {}
+[4.007853] (-) TimerEvent: {}
+[4.108033] (-) TimerEvent: {}
+[4.208177] (-) TimerEvent: {}
+[4.308333] (-) TimerEvent: {}
+[4.408487] (-) TimerEvent: {}
+[4.508664] (-) TimerEvent: {}
+[4.608858] (-) TimerEvent: {}
+[4.709000] (-) TimerEvent: {}
+[4.809153] (-) TimerEvent: {}
+[4.909351] (-) TimerEvent: {}
+[5.009506] (-) TimerEvent: {}
+[5.109735] (-) TimerEvent: {}
+[5.209891] (-) TimerEvent: {}
+[5.310037] (-) TimerEvent: {}
+[5.410227] (-) TimerEvent: {}
+[5.510386] (-) TimerEvent: {}
+[5.610540] (-) TimerEvent: {}
+[5.710741] (-) TimerEvent: {}
+[5.810886] (-) TimerEvent: {}
+[5.911028] (-) TimerEvent: {}
+[6.011211] (-) TimerEvent: {}
+[6.111402] (-) TimerEvent: {}
+[6.211628] (-) TimerEvent: {}
+[6.311828] (-) TimerEvent: {}
+[6.412044] (-) TimerEvent: {}
+[6.512274] (-) TimerEvent: {}
+[6.612447] (-) TimerEvent: {}
+[6.712635] (-) TimerEvent: {}
+[6.812788] (-) TimerEvent: {}
+[6.912929] (-) TimerEvent: {}
+[7.013075] (-) TimerEvent: {}
+[7.113224] (-) TimerEvent: {}
+[7.213365] (-) TimerEvent: {}
+[7.313505] (-) TimerEvent: {}
+[7.413651] (-) TimerEvent: {}
+[7.513798] (-) TimerEvent: {}
+[7.613942] (-) TimerEvent: {}
+[7.714089] (-) TimerEvent: {}
+[7.814237] (-) TimerEvent: {}
+[7.914422] (-) TimerEvent: {}
+[8.014605] (-) TimerEvent: {}
+[8.114792] (-) TimerEvent: {}
+[8.214956] (-) TimerEvent: {}
+[8.315100] (-) TimerEvent: {}
+[8.415241] (-) TimerEvent: {}
+[8.515381] (-) TimerEvent: {}
+[8.615540] (-) TimerEvent: {}
+[8.715714] (-) TimerEvent: {}
+[8.815889] (-) TimerEvent: {}
+[8.916031] (-) TimerEvent: {}
+[9.016176] (-) TimerEvent: {}
+[9.116323] (-) TimerEvent: {}
+[9.216459] (-) TimerEvent: {}
+[9.316651] (-) TimerEvent: {}
+[9.416802] (-) TimerEvent: {}
+[9.516952] (-) TimerEvent: {}
+[9.617097] (-) TimerEvent: {}
+[9.717282] (-) TimerEvent: {}
+[9.817427] (-) TimerEvent: {}
+[9.917609] (-) TimerEvent: {}
+[10.017753] (-) TimerEvent: {}
+[10.117903] (-) TimerEvent: {}
+[10.218092] (-) TimerEvent: {}
+[10.318283] (-) TimerEvent: {}
+[10.418429] (-) TimerEvent: {}
+[10.518615] (-) TimerEvent: {}
+[10.618764] (-) TimerEvent: {}
+[10.718910] (-) TimerEvent: {}
+[10.819063] (-) TimerEvent: {}
+[10.919210] (-) TimerEvent: {}
+[11.019356] (-) TimerEvent: {}
+[11.119515] (-) TimerEvent: {}
+[11.219817] (-) TimerEvent: {}
+[11.319963] (-) TimerEvent: {}
+[11.420110] (-) TimerEvent: {}
+[11.520259] (-) TimerEvent: {}
+[11.620400] (-) TimerEvent: {}
+[11.720548] (-) TimerEvent: {}
+[11.820672] (-) TimerEvent: {}
+[11.920825] (-) TimerEvent: {}
+[12.020985] (-) TimerEvent: {}
+[12.121268] (-) TimerEvent: {}
+[12.221478] (-) TimerEvent: {}
+[12.321692] (-) TimerEvent: {}
+[12.421854] (-) TimerEvent: {}
+[12.522003] (-) TimerEvent: {}
+[12.622150] (-) TimerEvent: {}
+[12.722323] (-) TimerEvent: {}
+[12.822516] (-) TimerEvent: {}
+[12.922708] (-) TimerEvent: {}
+[13.022913] (-) TimerEvent: {}
+[13.123061] (-) TimerEvent: {}
+[13.223393] (-) TimerEvent: {}
+[13.323594] (-) TimerEvent: {}
+[13.423785] (-) TimerEvent: {}
+[13.524053] (-) TimerEvent: {}
+[13.624199] (-) TimerEvent: {}
+[13.724339] (-) TimerEvent: {}
+[13.824493] (-) TimerEvent: {}
+[13.924701] (-) TimerEvent: {}
+[14.024854] (-) TimerEvent: {}
+[14.125000] (-) TimerEvent: {}
+[14.225142] (-) TimerEvent: {}
+[14.325287] (-) TimerEvent: {}
+[14.425430] (-) TimerEvent: {}
+[14.525573] (-) TimerEvent: {}
+[14.625739] (-) TimerEvent: {}
+[14.725884] (-) TimerEvent: {}
+[14.826029] (-) TimerEvent: {}
+[14.926181] (-) TimerEvent: {}
+[15.026368] (-) TimerEvent: {}
+[15.126522] (-) TimerEvent: {}
+[15.226720] (-) TimerEvent: {}
+[15.326879] (-) TimerEvent: {}
+[15.427044] (-) TimerEvent: {}
+[15.527191] (-) TimerEvent: {}
+[15.627338] (-) TimerEvent: {}
+[15.727568] (-) TimerEvent: {}
+[15.827730] (-) TimerEvent: {}
+[15.927887] (-) TimerEvent: {}
+[16.028032] (-) TimerEvent: {}
+[16.128185] (-) TimerEvent: {}
+[16.228465] (-) TimerEvent: {}
+[16.328774] (-) TimerEvent: {}
+[16.429070] (-) TimerEvent: {}
+[16.529224] (-) TimerEvent: {}
+[16.629367] (-) TimerEvent: {}
+[16.729521] (-) TimerEvent: {}
+[16.829677] (-) TimerEvent: {}
+[16.929841] (-) TimerEvent: {}
+[17.030074] (-) TimerEvent: {}
+[17.130355] (-) TimerEvent: {}
+[17.230719] (-) TimerEvent: {}
+[17.330898] (-) TimerEvent: {}
+[17.431239] (-) TimerEvent: {}
+[17.531411] (-) TimerEvent: {}
+[17.631569] (-) TimerEvent: {}
+[17.731995] (-) TimerEvent: {}
+[17.832170] (-) TimerEvent: {}
+[17.932334] (-) TimerEvent: {}
+[18.032494] (-) TimerEvent: {}
+[18.132651] (-) TimerEvent: {}
+[18.232990] (-) TimerEvent: {}
+[18.333158] (-) TimerEvent: {}
+[18.433307] (-) TimerEvent: {}
+[18.533537] (-) TimerEvent: {}
+[18.633679] (-) TimerEvent: {}
+[18.733886] (-) TimerEvent: {}
+[18.834076] (-) TimerEvent: {}
+[18.934221] (-) TimerEvent: {}
+[19.034367] (-) TimerEvent: {}
+[19.134509] (-) TimerEvent: {}
+[19.234726] (-) TimerEvent: {}
+[19.334875] (-) TimerEvent: {}
+[19.435031] (-) TimerEvent: {}
+[19.535180] (-) TimerEvent: {}
+[19.635328] (-) TimerEvent: {}
+[19.735514] (-) TimerEvent: {}
+[19.835672] (-) TimerEvent: {}
+[19.935828] (-) TimerEvent: {}
+[20.036003] (-) TimerEvent: {}
+[20.136215] (-) TimerEvent: {}
+[20.236432] (-) TimerEvent: {}
+[20.336580] (-) TimerEvent: {}
+[20.436725] (-) TimerEvent: {}
+[20.536876] (-) TimerEvent: {}
+[20.637059] (-) TimerEvent: {}
+[20.737249] (-) TimerEvent: {}
+[20.837451] (-) TimerEvent: {}
+[20.937602] (-) TimerEvent: {}
+[21.037678] (-) TimerEvent: {}
+[21.137870] (-) TimerEvent: {}
+[21.238036] (-) TimerEvent: {}
+[21.338175] (-) TimerEvent: {}
+[21.438302] (-) TimerEvent: {}
+[21.538433] (-) TimerEvent: {}
+[21.638571] (-) TimerEvent: {}
+[21.738725] (-) TimerEvent: {}
+[21.838868] (-) TimerEvent: {}
+[21.939003] (-) TimerEvent: {}
+[22.039142] (-) TimerEvent: {}
+[22.139290] (-) TimerEvent: {}
+[22.239432] (-) TimerEvent: {}
+[22.339636] (-) TimerEvent: {}
+[22.439827] (-) TimerEvent: {}
+[22.539969] (-) TimerEvent: {}
+[22.640111] (-) TimerEvent: {}
+[22.740258] (-) TimerEvent: {}
+[22.840403] (-) TimerEvent: {}
+[22.940549] (-) TimerEvent: {}
+[23.040677] (-) TimerEvent: {}
+[23.140960] (-) TimerEvent: {}
+[23.241249] (-) TimerEvent: {}
+[23.341541] (-) TimerEvent: {}
+[23.441712] (-) TimerEvent: {}
+[23.541869] (-) TimerEvent: {}
+[23.642031] (-) TimerEvent: {}
+[23.742179] (-) TimerEvent: {}
+[23.842324] (-) TimerEvent: {}
+[23.942468] (-) TimerEvent: {}
+[24.042612] (-) TimerEvent: {}
+[24.142760] (-) TimerEvent: {}
+[24.242949] (-) TimerEvent: {}
+[24.343117] (-) TimerEvent: {}
+[24.443294] (-) TimerEvent: {}
+[24.543435] (-) TimerEvent: {}
+[24.643576] (-) TimerEvent: {}
+[24.743675] (-) TimerEvent: {}
+[24.843815] (-) TimerEvent: {}
+[24.943954] (-) TimerEvent: {}
+[25.044092] (-) TimerEvent: {}
+[25.144252] (-) TimerEvent: {}
+[25.244397] (-) TimerEvent: {}
+[25.344540] (-) TimerEvent: {}
+[25.444728] (-) TimerEvent: {}
+[25.544879] (-) TimerEvent: {}
+[25.645035] (-) TimerEvent: {}
+[25.745179] (-) TimerEvent: {}
+[25.845327] (-) TimerEvent: {}
+[25.945476] (-) TimerEvent: {}
+[26.045668] (-) TimerEvent: {}
+[26.145828] (-) TimerEvent: {}
+[26.246038] (-) TimerEvent: {}
+[26.346189] (-) TimerEvent: {}
+[26.446471] (-) TimerEvent: {}
+[26.546616] (-) TimerEvent: {}
+[26.646764] (-) TimerEvent: {}
+[26.746909] (-) TimerEvent: {}
+[26.847065] (-) TimerEvent: {}
+[26.947215] (-) TimerEvent: {}
+[27.047362] (-) TimerEvent: {}
+[27.147657] (-) TimerEvent: {}
+[27.247814] (-) TimerEvent: {}
+[27.347957] (-) TimerEvent: {}
+[27.448118] (-) TimerEvent: {}
+[27.548305] (-) TimerEvent: {}
+[27.648456] (-) TimerEvent: {}
+[27.748644] (-) TimerEvent: {}
+[27.848807] (-) TimerEvent: {}
+[27.948961] (-) TimerEvent: {}
+[28.049192] (-) TimerEvent: {}
+[28.149351] (-) TimerEvent: {}
+[28.249492] (-) TimerEvent: {}
+[28.349643] (-) TimerEvent: {}
+[28.449786] (-) TimerEvent: {}
+[28.549927] (-) TimerEvent: {}
+[28.650069] (-) TimerEvent: {}
+[28.750281] (-) TimerEvent: {}
+[28.850505] (-) TimerEvent: {}
+[28.950664] (-) TimerEvent: {}
+[29.050816] (-) TimerEvent: {}
+[29.151023] (-) TimerEvent: {}
+[29.251171] (-) TimerEvent: {}
+[29.351322] (-) TimerEvent: {}
+[29.451470] (-) TimerEvent: {}
+[29.551615] (-) TimerEvent: {}
+[29.651764] (-) TimerEvent: {}
+[29.751943] (-) TimerEvent: {}
+[29.852085] (-) TimerEvent: {}
+[29.952230] (-) TimerEvent: {}
+[30.031314] (wall_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wall_follower', 'build', '--build-base', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build', 'install', '--record', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/wall_follower', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/ubuntu', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANGUAGE': 'ko:en', 'USER': 'ubuntu', 'LC_TIME': 'ko_KR.UTF-8', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"ko","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/tcf.json","messagesFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/6f17636121051a53c88d3e605c491d22af2ba755/nls.messages.json","corruptMarkerFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/corrupted.info"},"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"d19f984c966c9c8c0172e5d2dc437cfd.ko","_languagePackSupport":true,"_translationsConfigFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/tcf.json","_cacheRoot":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/6f17636121051a53c88d3e605c491d22af2ba755","_corruptedFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/corrupted.info"}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-c29ae69c-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1394', 'SYSTEMD_EXEC_PID': '1945', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2406865', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'COLCON_PREFIX_PATH': '/home/ubuntu/tb3_sim_ws/install:/home/ubuntu/turtlebot3_ws/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:12523', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'ubuntu', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/tmp/.tmpNkXqZM:/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/tools/arduino-1.8.3:/home/ubuntu/.vscode/extensions/openai.chatgpt-0.4.17-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/ubuntu30:@/tmp/.ICE-unix/1927,unix/ubuntu30:/tmp/.ICE-unix/1927', 'INVOCATION_ID': '3ac4a172c91141d1b8c65eca7da8d05e', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '32', 'AMENT_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/ubuntu/.config/Code/CachedData/6f17636121051a53c88d3e605c491d22af2ba755', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node', 'VSCODE_PID': '2406865'}, 'shell': False}
+[30.052289] (-) TimerEvent: {}
+[30.152457] (-) TimerEvent: {}
+[30.172269] (wall_follower) StdoutLine: {'line': b'running egg_info\n'}
+[30.181110] (wall_follower) StdoutLine: {'line': b'writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO\n'}
+[30.181431] (wall_follower) StdoutLine: {'line': b'writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt\n'}
+[30.181463] (wall_follower) StdoutLine: {'line': b'writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt\n'}
+[30.181540] (wall_follower) StdoutLine: {'line': b'writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt\n'}
+[30.181571] (wall_follower) StdoutLine: {'line': b'writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt\n'}
+[30.199847] (wall_follower) StdoutLine: {'line': b"reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'\n"}
+[30.200494] (wall_follower) StdoutLine: {'line': b"writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'\n"}
+[30.200596] (wall_follower) StdoutLine: {'line': b'running build\n'}
+[30.200730] (wall_follower) StdoutLine: {'line': b'running build_py\n'}
+[30.200788] (wall_follower) StdoutLine: {'line': b'copying wall_follower/wall_follow_terminal.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower\n'}
+[30.200854] (wall_follower) StdoutLine: {'line': b'copying wall_follower/wall_follow_controller.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower\n'}
+[30.200934] (wall_follower) StdoutLine: {'line': b'copying wall_follower/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower\n'}
+[30.201071] (wall_follower) StdoutLine: {'line': b'running install\n'}
+[30.203302] (wall_follower) StdoutLine: {'line': b'running install_lib\n'}
+[30.212623] (wall_follower) StdoutLine: {'line': b'running install_data\n'}
+[30.212735] (wall_follower) StdoutLine: {'line': b'copying resource/wall_follower -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/ament_index/resource_index/packages\n'}
+[30.212820] (wall_follower) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower\n'}
+[30.212910] (wall_follower) StdoutLine: {'line': b'copying launch/wall_follow.launch.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/launch\n'}
+[30.212992] (wall_follower) StdoutLine: {'line': b'copying config/wall_follow_params.yaml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/config\n'}
+[30.213041] (wall_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[30.222421] (wall_follower) StdoutLine: {'line': b"removing '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[30.222558] (wall_follower) StdoutLine: {'line': b'Copying ../../build/wall_follower/wall_follower.egg-info to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.1.0-py3.10.egg-info\n'}
+[30.222895] (wall_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[30.241386] (wall_follower) StdoutLine: {'line': b'Installing wall_follow_controller script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/wall_follower\n'}
+[30.241660] (wall_follower) StdoutLine: {'line': b'Installing wall_follow_terminal script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/wall_follower\n'}
+[30.241929] (wall_follower) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/install.log'\n"}
+[30.252550] (-) TimerEvent: {}
+[30.253266] (wall_follower) CommandEnded: {'returncode': 0}
+[30.258601] (wall_follower) JobEnded: {'identifier': 'wall_follower', 'rc': 0}
+[30.259001] (-) EventReactorShutdown: {}

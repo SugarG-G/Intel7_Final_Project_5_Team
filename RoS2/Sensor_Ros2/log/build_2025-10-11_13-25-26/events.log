@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'sub_robot_bringup'}
+[0.000374] (-) JobUnselected: {'identifier': 'sub_robot_core'}
+[0.000540] (-) JobUnselected: {'identifier': 'sub_robot_sim'}
+[0.000605] (wall_follower) JobQueued: {'identifier': 'wall_follower', 'dependencies': OrderedDict()}
+[0.000626] (wall_follower) JobStarted: {'identifier': 'wall_follower'}
+[0.099841] (-) TimerEvent: {}
+[0.200094] (-) TimerEvent: {}
+[0.300258] (-) TimerEvent: {}
+[0.389412] (wall_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wall_follower', 'build', '--build-base', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build', 'install', '--record', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/wall_follower', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/ubuntu', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANGUAGE': 'ko:en', 'USER': 'ubuntu', 'LC_TIME': 'ko_KR.UTF-8', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"ko","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/tcf.json","messagesFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/6f17636121051a53c88d3e605c491d22af2ba755/nls.messages.json","corruptMarkerFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/corrupted.info"},"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"c4cd97fcd2f75e8f5da1b51c72853db1.ko","_languagePackSupport":true,"_translationsConfigFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/tcf.json","_cacheRoot":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/6f17636121051a53c88d3e605c491d22af2ba755","_corruptedFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/corrupted.info"}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-c29ae69c-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1377', 'SYSTEMD_EXEC_PID': '2067', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '172779', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'COLCON_PREFIX_PATH': '/home/ubuntu/tb3_sim_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:40964', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'ubuntu', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/tmp/.tmpDUliXm:/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/tools/arduino-1.8.3:/home/ubuntu/.vscode/extensions/openai.chatgpt-0.4.19-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/ubuntu30:@/tmp/.ICE-unix/2045,unix/ubuntu30:/tmp/.ICE-unix/2045', 'INVOCATION_ID': '059afda258d8468dbb99099ea30c7e60', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '32', 'AMENT_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/ubuntu/.config/Code/CachedData/6f17636121051a53c88d3e605c491d22af2ba755', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node', 'VSCODE_PID': '172779'}, 'shell': False}
+[0.400328] (-) TimerEvent: {}
+[0.500457] (-) TimerEvent: {}
+[0.541505] (wall_follower) StdoutLine: {'line': b'running egg_info\n'}
+[0.550812] (wall_follower) StdoutLine: {'line': b'writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO\n'}
+[0.551117] (wall_follower) StdoutLine: {'line': b'writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt\n'}
+[0.551268] (wall_follower) StdoutLine: {'line': b'writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt\n'}
+[0.551386] (wall_follower) StdoutLine: {'line': b'writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt\n'}
+[0.551478] (wall_follower) StdoutLine: {'line': b'writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt\n'}
+[0.571870] (wall_follower) StdoutLine: {'line': b"reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'\n"}
+[0.572700] (wall_follower) StdoutLine: {'line': b"writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'\n"}
+[0.572920] (wall_follower) StdoutLine: {'line': b'running build\n'}
+[0.572994] (wall_follower) StdoutLine: {'line': b'running build_py\n'}
+[0.573576] (wall_follower) StdoutLine: {'line': b'copying wall_follower/waypoint_runner.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower\n'}
+[0.573841] (wall_follower) StdoutLine: {'line': b'copying wall_follower/wall_follow_terminal.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower\n'}
+[0.574038] (wall_follower) StdoutLine: {'line': b'copying wall_follower/wall_follow_controller.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower\n'}
+[0.574160] (wall_follower) StdoutLine: {'line': b'copying wall_follower/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower\n'}
+[0.574434] (wall_follower) StdoutLine: {'line': b'running install\n'}
+[0.577110] (wall_follower) StdoutLine: {'line': b'running install_lib\n'}
+[0.587013] (wall_follower) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/build/lib/wall_follower/waypoint_runner.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower\n'}
+[0.587270] (wall_follower) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower/waypoint_runner.py to waypoint_runner.cpython-310.pyc\n'}
+[0.588452] (wall_follower) StdoutLine: {'line': b'running install_data\n'}
+[0.588532] (wall_follower) StdoutLine: {'line': b'copying resource/wall_follower -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/ament_index/resource_index/packages\n'}
+[0.588666] (wall_follower) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower\n'}
+[0.588764] (wall_follower) StdoutLine: {'line': b'copying launch/wall_follow.launch.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/launch\n'}
+[0.588856] (wall_follower) StdoutLine: {'line': b'copying config/wall_follow_params.yaml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/config\n'}
+[0.588919] (wall_follower) StdoutLine: {'line': b'copying config/waypoints.yaml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/share/wall_follower/config\n'}
+[0.588966] (wall_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.599719] (wall_follower) StdoutLine: {'line': b"removing '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[0.599969] (wall_follower) StdoutLine: {'line': b'Copying ../../build/wall_follower/wall_follower.egg-info to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages/wall_follower-0.1.0-py3.10.egg-info\n'}
+[0.600159] (wall_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[0.600506] (-) TimerEvent: {}
+[0.619813] (wall_follower) StdoutLine: {'line': b'Installing wall_follow_controller script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/wall_follower\n'}
+[0.619952] (wall_follower) StdoutLine: {'line': b'Installing wall_follow_terminal script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/wall_follower\n'}
+[0.620023] (wall_follower) StdoutLine: {'line': b'Installing waypoint_runner script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/wall_follower\n'}
+[0.620244] (wall_follower) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/wall_follower/install.log'\n"}
+[0.700600] (-) TimerEvent: {}
+[0.800747] (-) TimerEvent: {}
+[0.900893] (-) TimerEvent: {}
+[1.001038] (-) TimerEvent: {}
+[1.101190] (-) TimerEvent: {}
+[1.201352] (-) TimerEvent: {}
+[1.301519] (-) TimerEvent: {}
+[1.401690] (-) TimerEvent: {}
+[1.501842] (-) TimerEvent: {}
+[1.602005] (-) TimerEvent: {}
+[1.702159] (-) TimerEvent: {}
+[1.802328] (-) TimerEvent: {}
+[1.902469] (-) TimerEvent: {}
+[2.002613] (-) TimerEvent: {}
+[2.102760] (-) TimerEvent: {}
+[2.202956] (-) TimerEvent: {}
+[2.303114] (-) TimerEvent: {}
+[2.403278] (-) TimerEvent: {}
+[2.503425] (-) TimerEvent: {}
+[2.603617] (-) TimerEvent: {}
+[2.703803] (-) TimerEvent: {}
+[2.804050] (-) TimerEvent: {}
+[2.904249] (-) TimerEvent: {}
+[3.004447] (-) TimerEvent: {}
+[3.104659] (-) TimerEvent: {}
+[3.204868] (-) TimerEvent: {}
+[3.305037] (-) TimerEvent: {}
+[3.405248] (-) TimerEvent: {}
+[3.505473] (-) TimerEvent: {}
+[3.605643] (-) TimerEvent: {}
+[3.705852] (-) TimerEvent: {}
+[3.806057] (-) TimerEvent: {}
+[3.906210] (-) TimerEvent: {}
+[4.006376] (-) TimerEvent: {}
+[4.106537] (-) TimerEvent: {}
+[4.206690] (-) TimerEvent: {}
+[4.306895] (-) TimerEvent: {}
+[4.407045] (-) TimerEvent: {}
+[4.507240] (-) TimerEvent: {}
+[4.607396] (-) TimerEvent: {}
+[4.707597] (-) TimerEvent: {}
+[4.807747] (-) TimerEvent: {}
+[4.907898] (-) TimerEvent: {}
+[5.008070] (-) TimerEvent: {}
+[5.108221] (-) TimerEvent: {}
+[5.208379] (-) TimerEvent: {}
+[5.308538] (-) TimerEvent: {}
+[5.408688] (-) TimerEvent: {}
+[5.508917] (-) TimerEvent: {}
+[5.609030] (-) TimerEvent: {}
+[5.709177] (-) TimerEvent: {}
+[5.809377] (-) TimerEvent: {}
+[5.909588] (-) TimerEvent: {}
+[6.009791] (-) TimerEvent: {}
+[6.110000] (-) TimerEvent: {}
+[6.210150] (-) TimerEvent: {}
+[6.310297] (-) TimerEvent: {}
+[6.410449] (-) TimerEvent: {}
+[6.510597] (-) TimerEvent: {}
+[6.610762] (-) TimerEvent: {}
+[6.710967] (-) TimerEvent: {}
+[6.811113] (-) TimerEvent: {}
+[6.911299] (-) TimerEvent: {}
+[7.011509] (-) TimerEvent: {}
+[7.111698] (-) TimerEvent: {}
+[7.211958] (-) TimerEvent: {}
+[7.312387] (-) TimerEvent: {}
+[7.412735] (-) TimerEvent: {}
+[7.513184] (-) TimerEvent: {}
+[7.613457] (-) TimerEvent: {}
+[7.713759] (-) TimerEvent: {}
+[7.814045] (-) TimerEvent: {}
+[7.914238] (-) TimerEvent: {}
+[8.014428] (-) TimerEvent: {}
+[8.114617] (-) TimerEvent: {}
+[8.214799] (-) TimerEvent: {}
+[8.314995] (-) TimerEvent: {}
+[8.415190] (-) TimerEvent: {}
+[8.515384] (-) TimerEvent: {}
+[8.615575] (-) TimerEvent: {}
+[8.715772] (-) TimerEvent: {}
+[8.815959] (-) TimerEvent: {}
+[8.916144] (-) TimerEvent: {}
+[9.016319] (-) TimerEvent: {}
+[9.116514] (-) TimerEvent: {}
+[9.216765] (-) TimerEvent: {}
+[9.316981] (-) TimerEvent: {}
+[9.417226] (-) TimerEvent: {}
+[9.517417] (-) TimerEvent: {}
+[9.617604] (-) TimerEvent: {}
+[9.717789] (-) TimerEvent: {}
+[9.817977] (-) TimerEvent: {}
+[9.918207] (-) TimerEvent: {}
+[10.018360] (-) TimerEvent: {}
+[10.118546] (-) TimerEvent: {}
+[10.218693] (-) TimerEvent: {}
+[10.318842] (-) TimerEvent: {}
+[10.419034] (-) TimerEvent: {}
+[10.519180] (-) TimerEvent: {}
+[10.619335] (-) TimerEvent: {}
+[10.719490] (-) TimerEvent: {}
+[10.819678] (-) TimerEvent: {}
+[10.919863] (-) TimerEvent: {}
+[11.020085] (-) TimerEvent: {}
+[11.120234] (-) TimerEvent: {}
+[11.220425] (-) TimerEvent: {}
+[11.320582] (-) TimerEvent: {}
+[11.420734] (-) TimerEvent: {}
+[11.520880] (-) TimerEvent: {}
+[11.621073] (-) TimerEvent: {}
+[11.721226] (-) TimerEvent: {}
+[11.821385] (-) TimerEvent: {}
+[11.921555] (-) TimerEvent: {}
+[12.021733] (-) TimerEvent: {}
+[12.121908] (-) TimerEvent: {}
+[12.222039] (-) TimerEvent: {}
+[12.322214] (-) TimerEvent: {}
+[12.422392] (-) TimerEvent: {}
+[12.522588] (-) TimerEvent: {}
+[12.622834] (-) TimerEvent: {}
+[12.723018] (-) TimerEvent: {}
+[12.823249] (-) TimerEvent: {}
+[12.923429] (-) TimerEvent: {}
+[13.023603] (-) TimerEvent: {}
+[13.123788] (-) TimerEvent: {}
+[13.223969] (-) TimerEvent: {}
+[13.324199] (-) TimerEvent: {}
+[13.424341] (-) TimerEvent: {}
+[13.524524] (-) TimerEvent: {}
+[13.624668] (-) TimerEvent: {}
+[13.724812] (-) TimerEvent: {}
+[13.824999] (-) TimerEvent: {}
+[13.925337] (-) TimerEvent: {}
+[14.025509] (-) TimerEvent: {}
+[14.125711] (-) TimerEvent: {}
+[14.225864] (-) TimerEvent: {}
+[14.326031] (-) TimerEvent: {}
+[14.426192] (-) TimerEvent: {}
+[14.526336] (-) TimerEvent: {}
+[14.626498] (-) TimerEvent: {}
+[14.726656] (-) TimerEvent: {}
+[14.826802] (-) TimerEvent: {}
+[14.927015] (-) TimerEvent: {}
+[15.027196] (-) TimerEvent: {}
+[15.127354] (-) TimerEvent: {}
+[15.227505] (-) TimerEvent: {}
+[15.327655] (-) TimerEvent: {}
+[15.427809] (-) TimerEvent: {}
+[15.527970] (-) TimerEvent: {}
+[15.628149] (-) TimerEvent: {}
+[15.728296] (-) TimerEvent: {}
+[15.828446] (-) TimerEvent: {}
+[15.928641] (-) TimerEvent: {}
+[16.028797] (-) TimerEvent: {}
+[16.128948] (-) TimerEvent: {}
+[16.229126] (-) TimerEvent: {}
+[16.329272] (-) TimerEvent: {}
+[16.429461] (-) TimerEvent: {}
+[16.529659] (-) TimerEvent: {}
+[16.629809] (-) TimerEvent: {}
+[16.729960] (-) TimerEvent: {}
+[16.830122] (-) TimerEvent: {}
+[16.930278] (-) TimerEvent: {}
+[17.030437] (-) TimerEvent: {}
+[17.130591] (-) TimerEvent: {}
+[17.230741] (-) TimerEvent: {}
+[17.330874] (-) TimerEvent: {}
+[17.432025] (-) TimerEvent: {}
+[17.532172] (-) TimerEvent: {}
+[17.632351] (-) TimerEvent: {}
+[17.732513] (-) TimerEvent: {}
+[17.832684] (-) TimerEvent: {}
+[17.932840] (-) TimerEvent: {}
+[18.032998] (-) TimerEvent: {}
+[18.133173] (-) TimerEvent: {}
+[18.233352] (-) TimerEvent: {}
+[18.333528] (-) TimerEvent: {}
+[18.433711] (-) TimerEvent: {}
+[18.533889] (-) TimerEvent: {}
+[18.634049] (-) TimerEvent: {}
+[18.734223] (-) TimerEvent: {}
+[18.834404] (-) TimerEvent: {}
+[18.934582] (-) TimerEvent: {}
+[19.034753] (-) TimerEvent: {}
+[19.134965] (-) TimerEvent: {}
+[19.235158] (-) TimerEvent: {}
+[19.335336] (-) TimerEvent: {}
+[19.435610] (-) TimerEvent: {}
+[19.535776] (-) TimerEvent: {}
+[19.636002] (-) TimerEvent: {}
+[19.736182] (-) TimerEvent: {}
+[19.836367] (-) TimerEvent: {}
+[19.936539] (-) TimerEvent: {}
+[20.036787] (-) TimerEvent: {}
+[20.137018] (-) TimerEvent: {}
+[20.237240] (-) TimerEvent: {}
+[20.337418] (-) TimerEvent: {}
+[20.437597] (-) TimerEvent: {}
+[20.537763] (-) TimerEvent: {}
+[20.637977] (-) TimerEvent: {}
+[20.738160] (-) TimerEvent: {}
+[20.838456] (-) TimerEvent: {}
+[20.938692] (-) TimerEvent: {}
+[21.038865] (-) TimerEvent: {}
+[21.139041] (-) TimerEvent: {}
+[21.239243] (-) TimerEvent: {}
+[21.339426] (-) TimerEvent: {}
+[21.439773] (-) TimerEvent: {}
+[21.539972] (-) TimerEvent: {}
+[21.640321] (-) TimerEvent: {}
+[21.740561] (-) TimerEvent: {}
+[21.840927] (-) TimerEvent: {}
+[21.941313] (-) TimerEvent: {}
+[22.041502] (-) TimerEvent: {}
+[22.141677] (-) TimerEvent: {}
+[22.241895] (-) TimerEvent: {}
+[22.342125] (-) TimerEvent: {}
+[22.442319] (-) TimerEvent: {}
+[22.542530] (-) TimerEvent: {}
+[22.642714] (-) TimerEvent: {}
+[22.742878] (-) TimerEvent: {}
+[22.843053] (-) TimerEvent: {}
+[22.943213] (-) TimerEvent: {}
+[23.043421] (-) TimerEvent: {}
+[23.143596] (-) TimerEvent: {}
+[23.243748] (-) TimerEvent: {}
+[23.343912] (-) TimerEvent: {}
+[23.444028] (-) TimerEvent: {}
+[23.544177] (-) TimerEvent: {}
+[23.644330] (-) TimerEvent: {}
+[23.744479] (-) TimerEvent: {}
+[23.844635] (-) TimerEvent: {}
+[23.944789] (-) TimerEvent: {}
+[24.044942] (-) TimerEvent: {}
+[24.145140] (-) TimerEvent: {}
+[24.245303] (-) TimerEvent: {}
+[24.345467] (-) TimerEvent: {}
+[24.445609] (-) TimerEvent: {}
+[24.545750] (-) TimerEvent: {}
+[24.645905] (-) TimerEvent: {}
+[24.746027] (-) TimerEvent: {}
+[24.846181] (-) TimerEvent: {}
+[24.946330] (-) TimerEvent: {}
+[25.046480] (-) TimerEvent: {}
+[25.146698] (-) TimerEvent: {}
+[25.246843] (-) TimerEvent: {}
+[25.347085] (-) TimerEvent: {}
+[25.447238] (-) TimerEvent: {}
+[25.547383] (-) TimerEvent: {}

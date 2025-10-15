@@ -1,0 +1,8 @@
+source;share/crop_task_vision/hook/cmake_prefix_path.ps1
+source;share/crop_task_vision/hook/cmake_prefix_path.dsv
+source;share/crop_task_vision/hook/cmake_prefix_path.sh
+source;share/crop_task_vision/local_setup.bash
+source;share/crop_task_vision/local_setup.dsv
+source;share/crop_task_vision/local_setup.ps1
+source;share/crop_task_vision/local_setup.sh
+source;share/crop_task_vision/local_setup.zsh

@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim -- -j24 -l24
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target mock_main_odom[0m
+[0.056s] [100%] Built target mock_main_odom
+[0.064s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim -- -j24 -l24
+[0.073s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim
+[0.079s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/lib/sub_robot_sim/mock_main_odom
+[0.079s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/params
+[0.079s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/params/mock_main_odom.yaml
+[0.079s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/ament_index/resource_index/package_run_dependencies/sub_robot_sim
+[0.079s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/ament_index/resource_index/parent_prefix_path/sub_robot_sim
+[0.079s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/ament_prefix_path.dsv
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/path.sh
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/path.dsv
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.bash
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.sh
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.zsh
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.dsv
+[0.080s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/package.dsv
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/ament_index/resource_index/packages/sub_robot_sim
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/cmake/sub_robot_simConfig.cmake
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/cmake/sub_robot_simConfig-version.cmake
+[0.080s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/package.xml
+[0.082s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim
