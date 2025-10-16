@@ -1,0 +1,47 @@
+[0.008s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim -- -j24 -l24
+[0.026s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.135s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.136s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.140s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.173s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.173s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.236s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.261s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.275s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.277s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.285s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.286s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.286s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.378s] -- Configuring done
+[0.385s] -- Generating done
+[0.387s] -- Build files have been written to: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim
+[0.412s] Consolidate compiler generated dependencies of target mock_main_odom
+[0.426s] [ 50%] Building CXX object CMakeFiles/mock_main_odom.dir/src/mock_main_odom.cpp.o
+[3.005s] [100%] Linking CXX executable mock_main_odom
+[3.133s] [100%] Built target mock_main_odom
+[3.140s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim -- -j24 -l24
+[3.140s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim
+[3.145s] -- Install configuration: ""
+[3.145s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/lib/sub_robot_sim/mock_main_odom
+[3.146s] -- Set runtime path of "/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/lib/sub_robot_sim/mock_main_odom" to ""
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/params
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/params/mock_main_odom.yaml
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/ament_index/resource_index/package_run_dependencies/sub_robot_sim
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/ament_index/resource_index/parent_prefix_path/sub_robot_sim
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/ament_prefix_path.sh
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/ament_prefix_path.dsv
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/path.sh
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/environment/path.dsv
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.bash
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.sh
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.zsh
+[3.146s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/local_setup.dsv
+[3.147s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/package.dsv
+[3.147s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/ament_index/resource_index/packages/sub_robot_sim
+[3.147s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/cmake/sub_robot_simConfig.cmake
+[3.147s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/cmake/sub_robot_simConfig-version.cmake
+[3.147s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim/share/sub_robot_sim/package.xml
+[3.148s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_sim

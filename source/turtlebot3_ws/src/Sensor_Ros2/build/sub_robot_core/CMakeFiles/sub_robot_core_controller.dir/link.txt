@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsub_robot_core_controller.a CMakeFiles/sub_robot_core_controller.dir/src/sub_controller.cpp.o
+/usr/bin/ranlib libsub_robot_core_controller.a

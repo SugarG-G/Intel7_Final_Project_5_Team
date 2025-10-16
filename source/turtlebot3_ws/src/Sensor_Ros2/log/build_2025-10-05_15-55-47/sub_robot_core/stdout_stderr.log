@@ -1,0 +1,28 @@
+[ 25%] Building CXX object CMakeFiles/sub_robot_core_controller.dir/src/sub_controller.cpp.o
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp: In member function ‘void sub_robot_core::SubController::compute_follow(const rclcpp::Time&)’:
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp:124:49: error: invalid initialization of reference of type ‘const tf2::Quaternion&’ from expression of type ‘double’
+  124 |   const double err_yaw = tf2::angleShortestPath(est_yaw_, desired_yaw);
+      |                                                 ^~~~~~~~
+In file included from /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:19,
+                 from /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/include/sub_robot_core/sub_controller.hpp:7,
+                 from /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp:1:
+/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:417:37: note: in passing argument 1 of ‘tf2Scalar tf2::angleShortestPath(const tf2::Quaternion&, const tf2::Quaternion&)’
+  417 | angleShortestPath(const Quaternion& q1, const Quaternion& q2)
+      |                   ~~~~~~~~~~~~~~~~~~^~
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp: In member function ‘void sub_robot_core::SubController::compute_alignment(const rclcpp::Time&)’:
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp:164:49: error: invalid initialization of reference of type ‘const tf2::Quaternion&’ from expression of type ‘double’
+  164 |   const double err_yaw = tf2::angleShortestPath(est_yaw_, desired_yaw);
+      |                                                 ^~~~~~~~
+In file included from /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:19,
+                 from /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/include/sub_robot_core/sub_controller.hpp:7,
+                 from /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp:1:
+/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:417:37: note: in passing argument 1 of ‘tf2Scalar tf2::angleShortestPath(const tf2::Quaternion&, const tf2::Quaternion&)’
+  417 | angleShortestPath(const Quaternion& q1, const Quaternion& q2)
+      |                   ~~~~~~~~~~~~~~~~~~^~
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp: In member function ‘void sub_robot_core::SubController::integrate_estimate(double)’:
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/sub_robot_core/src/sub_controller.cpp:249:19: error: ‘normalizeAngle’ is not a member of ‘tf2’
+  249 |   est_yaw_ = tf2::normalizeAngle(est_yaw_ + wz * dt);
+      |                   ^~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/sub_robot_core_controller.dir/build.make:76: CMakeFiles/sub_robot_core_controller.dir/src/sub_controller.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sub_robot_core_controller.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

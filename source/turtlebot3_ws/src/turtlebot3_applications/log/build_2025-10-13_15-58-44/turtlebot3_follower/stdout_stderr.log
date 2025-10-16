@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/follower.dir/src/follower.cpp.o[0m
+gmake[2]: *** [CMakeFiles/follower.dir/build.make:76: CMakeFiles/follower.dir/src/follower.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/follower.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,33 @@
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2026-Mar-03, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self._enforce_underscore(opt, section)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+        (Affected: wall_follower).
+
+        By 2026-Mar-03, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self._enforce_underscore(opt, section)

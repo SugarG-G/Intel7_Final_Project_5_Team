@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: wall_follower
+Version: 0.1.0
+Summary: Wall following controller and terminal interface for TurtleBot3
+Maintainer: Intel7 Team
+Maintainer-email: user@example.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

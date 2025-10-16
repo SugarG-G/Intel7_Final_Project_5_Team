@@ -1,0 +1,6 @@
+[console_scripts]
+simple_waypoint_runner = wall_follower.simple_waypoint_runner:main
+smooth_waypoint_runner = wall_follower.smooth_waypoint_runner:main
+wall_follow_controller = wall_follower.wall_follow_controller:main
+wall_follow_terminal = wall_follower.wall_follow_terminal:main
+waypoint_runner = wall_follower.waypoint_runner:main

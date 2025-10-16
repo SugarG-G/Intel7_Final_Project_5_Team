@@ -1,0 +1,13 @@
+sub_controller_node:
+  ros__parameters:
+    target_distance: 0.6
+    align_offset_y: 0.5
+    align_offset_x: 0.1
+    tol_xy: 0.05
+    tol_yaw: 0.05
+    max_lin: 0.18
+    max_ang: 0.48
+    odom_timeout: 0.5
+    k_lin: 1.0
+    k_lat: 1.0
+    k_yaw: 1.5

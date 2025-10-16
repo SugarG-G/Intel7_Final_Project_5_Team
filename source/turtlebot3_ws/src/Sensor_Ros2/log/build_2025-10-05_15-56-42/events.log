@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000050] (-) JobUnselected: {'identifier': 'sub_robot_bringup'}
+[0.000069] (-) JobUnselected: {'identifier': 'sub_robot_sim'}
+[0.000082] (sub_robot_core) JobQueued: {'identifier': 'sub_robot_core', 'dependencies': OrderedDict()}
+[0.000465] (sub_robot_core) JobStarted: {'identifier': 'sub_robot_core'}
+[0.013781] (sub_robot_core) JobProgress: {'identifier': 'sub_robot_core', 'progress': 'cmake'}
+[0.014138] (sub_robot_core) JobProgress: {'identifier': 'sub_robot_core', 'progress': 'build'}
+[0.014571] (sub_robot_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_core', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_core', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ubuntu'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'ko:en'), ('USER', 'ubuntu'), ('LC_TIME', 'ko_KR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"ko","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/tcf.json","messagesFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/6f17636121051a53c88d3e605c491d22af2ba755/nls.messages.json","corruptMarkerFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/corrupted.info"},"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"d19f984c966c9c8c0172e5d2dc437cfd.ko","_languagePackSupport":true,"_translationsConfigFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/tcf.json","_cacheRoot":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/6f17636121051a53c88d3e605c491d22af2ba755","_corruptedFile":"/home/ubuntu/.config/Code/clp/d19f984c966c9c8c0172e5d2dc437cfd.ko/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-c29ae69c-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1394'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '322282'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/ubuntu/tb3_sim_ws/install:/home/ubuntu/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:12523'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'ubuntu'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/bin:/tmp/.tmpyom6Ob:/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/tools/arduino-1.8.3:/home/ubuntu/.vscode/extensions/openai.chatgpt-0.4.15-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ubuntu30:@/tmp/.ICE-unix/1927,unix/ubuntu30:/tmp/.ICE-unix/1927'), ('INVOCATION_ID', '3ac4a172c91141d1b8c65eca7da8d05e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_core'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ubuntu/.config/Code/CachedData/6f17636121051a53c88d3e605c491d22af2ba755'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('VSCODE_PID', '322282')]), 'shell': False}
+[0.041621] (sub_robot_core) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099861] (-) TimerEvent: {}
+[0.175391] (sub_robot_core) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199961] (-) TimerEvent: {}
+[0.218111] (sub_robot_core) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.220549] (sub_robot_core) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.228246] (sub_robot_core) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.237566] (sub_robot_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.251148] (sub_robot_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.285893] (sub_robot_core) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.288164] (sub_robot_core) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300052] (-) TimerEvent: {}
+[0.398681] (sub_robot_core) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400110] (-) TimerEvent: {}
+[0.459749] (sub_robot_core) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.476962] (sub_robot_core) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.496796] (sub_robot_core) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.500177] (-) TimerEvent: {}
+[0.501775] (sub_robot_core) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.507246] (sub_robot_core) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.508752] (sub_robot_core) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.600279] (-) TimerEvent: {}
+[0.619707] (sub_robot_core) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.676614] (sub_robot_core) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.692923] (sub_robot_core) StdoutLine: {'line': b'-- Generating done\n'}
+[0.697502] (sub_robot_core) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/sub_robot_core\n'}
+[0.700340] (-) TimerEvent: {}
+[0.718752] (sub_robot_core) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target sub_robot_core_controller\n'}
+[0.729203] (sub_robot_core) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/sub_robot_core_controller.dir/src/sub_controller.cpp.o\n'}
+[0.800447] (-) TimerEvent: {}
+[0.900611] (-) TimerEvent: {}
+[1.000778] (-) TimerEvent: {}
+[1.100948] (-) TimerEvent: {}
+[1.201068] (-) TimerEvent: {}
+[1.301302] (-) TimerEvent: {}
+[1.401492] (-) TimerEvent: {}
+[1.501695] (-) TimerEvent: {}
+[1.601869] (-) TimerEvent: {}
+[1.702051] (-) TimerEvent: {}
+[1.802230] (-) TimerEvent: {}
+[1.902404] (-) TimerEvent: {}
+[2.002581] (-) TimerEvent: {}
+[2.102754] (-) TimerEvent: {}
+[2.202926] (-) TimerEvent: {}
+[2.303066] (-) TimerEvent: {}
+[2.403236] (-) TimerEvent: {}
+[2.503403] (-) TimerEvent: {}
+[2.603574] (-) TimerEvent: {}
+[2.703760] (-) TimerEvent: {}
+[2.803939] (-) TimerEvent: {}
+[2.831321] (sub_robot_core) StdoutLine: {'line': b'[ 50%] Linking CXX static library libsub_robot_core_controller.a\n'}
+[2.904048] (-) TimerEvent: {}
+[2.959870] (sub_robot_core) StdoutLine: {'line': b'[ 50%] Built target sub_robot_core_controller\n'}
+[2.974391] (sub_robot_core) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target sub_controller_node\n'}
+[2.988057] (sub_robot_core) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/sub_controller_node.dir/src/sub_controller_node.cpp.o\n'}
+[3.004156] (-) TimerEvent: {}
+[3.104335] (-) TimerEvent: {}
+[3.204526] (-) TimerEvent: {}
+[3.304715] (-) TimerEvent: {}
+[3.404893] (-) TimerEvent: {}
+[3.505076] (-) TimerEvent: {}
+[3.605251] (-) TimerEvent: {}
+[3.705428] (-) TimerEvent: {}
+[3.805602] (-) TimerEvent: {}
+[3.905796] (-) TimerEvent: {}
+[4.005998] (-) TimerEvent: {}
+[4.106190] (-) TimerEvent: {}
+[4.206364] (-) TimerEvent: {}
+[4.306525] (-) TimerEvent: {}
+[4.406697] (-) TimerEvent: {}
+[4.506863] (-) TimerEvent: {}
+[4.607038] (-) TimerEvent: {}
+[4.707218] (-) TimerEvent: {}
+[4.807397] (-) TimerEvent: {}
+[4.907577] (-) TimerEvent: {}
+[5.007758] (-) TimerEvent: {}
+[5.107929] (-) TimerEvent: {}
+[5.208066] (-) TimerEvent: {}
+[5.308237] (-) TimerEvent: {}
+[5.408423] (-) TimerEvent: {}
+[5.508596] (-) TimerEvent: {}
+[5.608762] (-) TimerEvent: {}
+[5.708930] (-) TimerEvent: {}
+[5.809072] (-) TimerEvent: {}
+[5.909255] (-) TimerEvent: {}
+[6.009430] (-) TimerEvent: {}
+[6.109608] (-) TimerEvent: {}
+[6.209801] (-) TimerEvent: {}
+[6.309992] (-) TimerEvent: {}
+[6.410177] (-) TimerEvent: {}
+[6.510342] (-) TimerEvent: {}
+[6.610532] (-) TimerEvent: {}
+[6.710717] (-) TimerEvent: {}
+[6.810881] (-) TimerEvent: {}
+[6.911050] (-) TimerEvent: {}
+[7.011214] (-) TimerEvent: {}
+[7.111377] (-) TimerEvent: {}
+[7.211576] (-) TimerEvent: {}
+[7.311737] (-) TimerEvent: {}
+[7.411901] (-) TimerEvent: {}
+[7.512025] (-) TimerEvent: {}
+[7.612187] (-) TimerEvent: {}
+[7.712345] (-) TimerEvent: {}
+[7.812503] (-) TimerEvent: {}
+[7.912671] (-) TimerEvent: {}
+[8.012845] (-) TimerEvent: {}
+[8.113042] (-) TimerEvent: {}
+[8.213218] (-) TimerEvent: {}
+[8.313462] (-) TimerEvent: {}
+[8.413708] (-) TimerEvent: {}
+[8.514042] (-) TimerEvent: {}
+[8.614296] (-) TimerEvent: {}
+[8.714550] (-) TimerEvent: {}
+[8.814789] (-) TimerEvent: {}
+[8.915028] (-) TimerEvent: {}
+[9.015290] (-) TimerEvent: {}
+[9.115501] (-) TimerEvent: {}
+[9.215759] (-) TimerEvent: {}
+[9.316076] (-) TimerEvent: {}
+[9.416332] (-) TimerEvent: {}
+[9.516526] (-) TimerEvent: {}
+[9.616717] (-) TimerEvent: {}
+[9.717117] (-) TimerEvent: {}

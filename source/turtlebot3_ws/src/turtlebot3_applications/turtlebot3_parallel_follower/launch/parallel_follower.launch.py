@@ -42,7 +42,7 @@ def generate_launch_description():
         ctrl_yaml_path = os.path.join(
             get_package_share_directory('turtlebot3_parallel_follower'),
             'param',
-            f'controll_server{i+1}.yaml'
+            f'control_server{i+1}.yaml'
         )
 
         ctrl_node = Node(

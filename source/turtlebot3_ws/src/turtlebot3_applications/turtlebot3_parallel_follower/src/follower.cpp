@@ -38,6 +38,7 @@ Follower::Follower(const std::string & follower_name, const std::string & leader
     std::chrono::milliseconds(100),
     std::bind(&Follower::send_path, this));
 
+  //recieving docking service from leader, does nothing for now
   auto service_name = std::string(this->get_name()) + "/start_docking";
   docking_service_server_ = this->create_service<turtlebot3_parallel_follower::srv::StartDocking>(
     service_name,
@@ -64,7 +65,7 @@ void Follower::tf_publisher()
     tf_msg.transform.rotation.z = 0.0;
     tf_msg.transform.rotation.w = 1.0;
   } else {
-    tf_msg.transform.translation.x = -0.14;
+    tf_msg.transform.translation.x = 0;
     tf_msg.transform.translation.y = 0;
     tf_msg.transform.translation.z = 0;
     tf_msg.transform.rotation.x = 0.0;
@@ -94,8 +95,8 @@ void Follower::send_path()
   }
 
   // Parameters for controlling the formation
-  const double LATERAL_OFFSET = 0.5;  // meters, to the right
-  const double LOOK_AHEAD_DIST = 0.3; // meters, in front of the leader
+  const double LATERAL_OFFSET = 0.35;  // meters, to the right
+  const double LOOK_AHEAD_DIST = 0.0; // meters, in front of the leader
 
   // Extract leader's position and orientation
   double leader_x = leader_transform.transform.translation.x;
