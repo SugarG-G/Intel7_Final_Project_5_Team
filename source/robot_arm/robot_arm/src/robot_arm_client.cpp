@@ -14,7 +14,6 @@ public:
     : Node("robot_arm_service_client")
     {
         client_ = this->create_client<RobotArmCommand>("robot_arm_control");
-
         while (!client_->wait_for_service(1s)) {
             RCLCPP_INFO(this->get_logger(), "서비스 대기 중...");
         }
@@ -26,7 +25,6 @@ public:
         request->command = command;
 
         auto future = client_->async_send_request(request);
-
         if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), future) ==
             rclcpp::FutureReturnCode::SUCCESS)
         {
@@ -47,12 +45,13 @@ int main(int argc, char **argv)
     auto node = std::make_shared<RobotArmClient>();
 
     std::string cmd;
-    std::cout << "보낼 명령 입력 (예: 70@90@40@90@0@90): ";
-    std::getline(std::cin, cmd);
+    while (rclcpp::ok()) {
+        std::cout << "명령 입력 [detect | move]: ";
+        std::getline(std::cin, cmd);
+        if (!rclcpp::ok()) break;
 
-    auto response = node->send_command(cmd);
-    if (response) {
-        std::cout << "서버 응답: " << response->result << std::endl;
+        auto resp = node->send_command(cmd);
+        if (resp) std::cout << "서버 응답: " << resp->result << std::endl;
     }
 
     rclcpp::shutdown();
