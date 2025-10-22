@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_arm/srv/RobotArmCommand.srv
+// generated code does not contain a copyright notice
+
+
+module robot_arm {
+  module srv {
+    @verbatim (language="comment", text=
+      "요청(Request)")
+    struct RobotArmCommand_Request {
+      string command;
+    };
+    @verbatim (language="comment", text=
+      "응답(Response)")
+    struct RobotArmCommand_Response {
+      string result;
+    };
+  };
+};

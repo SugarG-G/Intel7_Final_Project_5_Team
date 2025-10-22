@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher -- -j24 -l24
+[0.041s] [ 50%] Building CXX object CMakeFiles/i2c_distance_node.dir/src/i2c_distance_node.cpp.o
+[1.108s] /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/i2c_distance_publisher/src/i2c_distance_node.cpp: In member function ‘bool i2c_distance_publisher::I2CDistanceNode::write_register_byte(uint8_t, uint8_t)’:
+[1.108s] /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/i2c_distance_publisher/src/i2c_distance_node.cpp:184:18: error: aggregate ‘i2c_msg message’ has incomplete type and cannot be defined
+[1.108s]   184 |   struct i2c_msg message;
+[1.108s]       |                  ^~~~~~~
+[1.109s] /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/i2c_distance_publisher/src/i2c_distance_node.cpp: In member function ‘bool i2c_distance_publisher::I2CDistanceNode::read_bytes(uint8_t, uint8_t*, std::size_t)’:
+[1.109s] /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/i2c_distance_publisher/src/i2c_distance_node.cpp:210:18: error: elements of array ‘i2c_msg messages [2]’ have incomplete type
+[1.109s]   210 |   struct i2c_msg messages[2];
+[1.109s]       |                  ^~~~~~~~
+[1.109s] /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/i2c_distance_publisher/src/i2c_distance_node.cpp:210:18: error: storage size of ‘messages’ isn’t known
+[1.113s] /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/i2c_distance_publisher/src/i2c_distance_node.cpp:219:23: error: ‘I2C_M_RD’ was not declared in this scope
+[1.113s]   219 |   messages[1].flags = I2C_M_RD;
+[1.113s]       |                       ^~~~~~~~
+[1.503s] gmake[2]: *** [CMakeFiles/i2c_distance_node.dir/build.make:76: CMakeFiles/i2c_distance_node.dir/src/i2c_distance_node.cpp.o] 오류 1
+[1.503s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/i2c_distance_node.dir/all] 오류 2
+[1.503s] gmake: *** [Makefile:146: all] 오류 2
+[1.506s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher -- -j24 -l24

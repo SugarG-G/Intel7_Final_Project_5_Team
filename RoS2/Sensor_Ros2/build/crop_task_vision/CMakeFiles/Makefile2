@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sen
 # The main recursive "all" target.
 all: CMakeFiles/crop_task_node_lib.dir/all
 all: CMakeFiles/crop_task_node.dir/all
+all: CMakeFiles/lidar_guard_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/crop_task_vision_uninstall.dir/clean
 clean: CMakeFiles/crop_task_node_lib.dir/clean
 clean: CMakeFiles/crop_task_node.dir/clean
+clean: CMakeFiles/lidar_guard_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +183,32 @@ crop_task_node: CMakeFiles/crop_task_node.dir/rule
 CMakeFiles/crop_task_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crop_task_node.dir/build.make CMakeFiles/crop_task_node.dir/clean
 .PHONY : CMakeFiles/crop_task_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lidar_guard_node.dir
+
+# All Build rule for target.
+CMakeFiles/lidar_guard_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles --progress-num=5,6,7 "Built target lidar_guard_node"
+.PHONY : CMakeFiles/lidar_guard_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lidar_guard_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lidar_guard_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles 0
+.PHONY : CMakeFiles/lidar_guard_node.dir/rule
+
+# Convenience name for target.
+lidar_guard_node: CMakeFiles/lidar_guard_node.dir/rule
+.PHONY : lidar_guard_node
+
+# clean rule for target.
+CMakeFiles/lidar_guard_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/clean
+.PHONY : CMakeFiles/lidar_guard_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

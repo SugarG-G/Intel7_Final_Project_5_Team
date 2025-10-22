@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000064] (-) JobUnselected: {'identifier': 'crop_task_vision'}
+[0.000088] (-) JobUnselected: {'identifier': 'i2c_distance_publisher'}
+[0.000105] (-) JobUnselected: {'identifier': 'sub_robot_bringup'}
+[0.000121] (-) JobUnselected: {'identifier': 'sub_robot_core'}
+[0.000135] (-) JobUnselected: {'identifier': 'sub_robot_sim'}
+[0.000149] (-) JobUnselected: {'identifier': 'wall_follower'}
+[0.000164] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.000584] (turtlebot3_example) JobStarted: {'identifier': 'turtlebot3_example'}
+[0.099812] (-) TimerEvent: {}
+[0.200090] (-) TimerEvent: {}
+[0.300346] (-) TimerEvent: {}
+[0.400577] (-) TimerEvent: {}
+[0.500735] (-) TimerEvent: {}
+[0.600914] (-) TimerEvent: {}
+[0.701078] (-) TimerEvent: {}
+[0.801238] (-) TimerEvent: {}
+[0.901401] (-) TimerEvent: {}
+[1.001572] (-) TimerEvent: {}
+[1.101811] (-) TimerEvent: {}
+[1.202009] (-) TimerEvent: {}
+[1.302220] (-) TimerEvent: {}
+[1.402392] (-) TimerEvent: {}
+[1.502567] (-) TimerEvent: {}
+[1.602747] (-) TimerEvent: {}
+[1.702911] (-) TimerEvent: {}
+[1.803077] (-) TimerEvent: {}
+[1.903246] (-) TimerEvent: {}
+[2.003413] (-) TimerEvent: {}
+[2.103579] (-) TimerEvent: {}
+[2.203865] (-) TimerEvent: {}
+[2.304132] (-) TimerEvent: {}
+[2.404296] (-) TimerEvent: {}
+[2.504612] (-) TimerEvent: {}
+[2.604762] (-) TimerEvent: {}
+[2.704993] (-) TimerEvent: {}
+[2.805117] (-) TimerEvent: {}
+[2.905324] (-) TimerEvent: {}
+[3.005538] (-) TimerEvent: {}
+[3.105691] (-) TimerEvent: {}
+[3.205903] (-) TimerEvent: {}
+[3.306079] (-) TimerEvent: {}
+[3.406297] (-) TimerEvent: {}
+[3.506541] (-) TimerEvent: {}
+[3.606785] (-) TimerEvent: {}
+[3.707114] (-) TimerEvent: {}
+[3.807271] (-) TimerEvent: {}
+[3.907479] (-) TimerEvent: {}
+[4.007735] (-) TimerEvent: {}
+[4.108052] (-) TimerEvent: {}
+[4.208206] (-) TimerEvent: {}
+[4.308356] (-) TimerEvent: {}
+[4.408506] (-) TimerEvent: {}
+[4.508656] (-) TimerEvent: {}
+[4.608860] (-) TimerEvent: {}
+[4.709125] (-) TimerEvent: {}
+[4.809288] (-) TimerEvent: {}
+[4.909453] (-) TimerEvent: {}
+[5.009685] (-) TimerEvent: {}
+[5.110008] (-) TimerEvent: {}
+[5.210311] (-) TimerEvent: {}
+[5.310586] (-) TimerEvent: {}
+[5.410762] (-) TimerEvent: {}
+[5.511086] (-) TimerEvent: {}
+[5.611336] (-) TimerEvent: {}
+[5.711534] (-) TimerEvent: {}
+[5.811684] (-) TimerEvent: {}
+[5.911918] (-) TimerEvent: {}
+[6.012141] (-) TimerEvent: {}
+[6.112350] (-) TimerEvent: {}
+[6.212668] (-) TimerEvent: {}
+[6.313002] (-) TimerEvent: {}
+[6.413275] (-) TimerEvent: {}
+[6.513513] (-) TimerEvent: {}
+[6.613738] (-) TimerEvent: {}
+[6.714025] (-) TimerEvent: {}
+[6.814173] (-) TimerEvent: {}
+[6.914488] (-) TimerEvent: {}
+[7.014633] (-) TimerEvent: {}
+[7.114837] (-) TimerEvent: {}
+[7.215128] (-) TimerEvent: {}
+[7.315297] (-) TimerEvent: {}
+[7.415456] (-) TimerEvent: {}
+[7.515715] (-) TimerEvent: {}
+[7.616042] (-) TimerEvent: {}
+[7.716198] (-) TimerEvent: {}
+[7.816347] (-) TimerEvent: {}
+[7.916534] (-) TimerEvent: {}
+[8.016748] (-) TimerEvent: {}
+[8.117048] (-) TimerEvent: {}
+[8.217339] (-) TimerEvent: {}
+[8.317491] (-) TimerEvent: {}
+[8.417802] (-) TimerEvent: {}
+[8.518064] (-) TimerEvent: {}
+[8.618345] (-) TimerEvent: {}
+[8.718621] (-) TimerEvent: {}
+[8.818885] (-) TimerEvent: {}
+[8.919039] (-) TimerEvent: {}
+[9.019357] (-) TimerEvent: {}
+[9.119622] (-) TimerEvent: {}
+[9.219864] (-) TimerEvent: {}
+[9.320025] (-) TimerEvent: {}
+[9.420289] (-) TimerEvent: {}
+[9.520553] (-) TimerEvent: {}
+[9.620930] (-) TimerEvent: {}
+[9.721201] (-) TimerEvent: {}
+[9.821347] (-) TimerEvent: {}
+[9.921594] (-) TimerEvent: {}
+[10.021911] (-) TimerEvent: {}
+[10.122077] (-) TimerEvent: {}
+[10.222222] (-) TimerEvent: {}
+[10.322365] (-) TimerEvent: {}
+[10.422551] (-) TimerEvent: {}
+[10.522727] (-) TimerEvent: {}
+[10.622863] (-) TimerEvent: {}
+[10.722991] (-) TimerEvent: {}
+[10.823127] (-) TimerEvent: {}
+[10.923262] (-) TimerEvent: {}
+[11.023409] (-) TimerEvent: {}
+[11.123544] (-) TimerEvent: {}
+[11.223669] (-) TimerEvent: {}
+[11.323803] (-) TimerEvent: {}
+[11.424095] (-) TimerEvent: {}
+[11.524284] (-) TimerEvent: {}
+[11.624414] (-) TimerEvent: {}
+[11.724539] (-) TimerEvent: {}
+[11.824661] (-) TimerEvent: {}
+[11.924825] (-) TimerEvent: {}
+[12.024983] (-) TimerEvent: {}
+[12.125134] (-) TimerEvent: {}
+[12.225271] (-) TimerEvent: {}
+[12.325397] (-) TimerEvent: {}
+[12.425529] (-) TimerEvent: {}
+[12.525666] (-) TimerEvent: {}
+[12.625798] (-) TimerEvent: {}
+[12.725884] (-) TimerEvent: {}
+[12.825988] (-) TimerEvent: {}
+[12.926121] (-) TimerEvent: {}
+[13.026388] (-) TimerEvent: {}
+[13.126491] (-) TimerEvent: {}
+[13.226597] (-) TimerEvent: {}
+[13.326702] (-) TimerEvent: {}
+[13.426837] (-) TimerEvent: {}
+[13.526966] (-) TimerEvent: {}
+[13.627272] (-) TimerEvent: {}
+[13.727412] (-) TimerEvent: {}
+[13.827548] (-) TimerEvent: {}
+[13.927690] (-) TimerEvent: {}
+[14.027901] (-) TimerEvent: {}
+[14.128042] (-) TimerEvent: {}
+[14.228165] (-) TimerEvent: {}
+[14.328285] (-) TimerEvent: {}
+[14.428405] (-) TimerEvent: {}
+[14.528515] (-) TimerEvent: {}
+[14.628622] (-) TimerEvent: {}
+[14.728745] (-) TimerEvent: {}
+[14.828938] (-) TimerEvent: {}
+[14.929070] (-) TimerEvent: {}
+[15.029211] (-) TimerEvent: {}
+[15.129352] (-) TimerEvent: {}
+[15.229502] (-) TimerEvent: {}
+[15.329640] (-) TimerEvent: {}
+[15.429768] (-) TimerEvent: {}
+[15.529933] (-) TimerEvent: {}
+[15.630074] (-) TimerEvent: {}
+[15.730206] (-) TimerEvent: {}
+[15.830316] (-) TimerEvent: {}
+[15.930435] (-) TimerEvent: {}
+[16.030578] (-) TimerEvent: {}
+[16.130690] (-) TimerEvent: {}
+[16.230809] (-) TimerEvent: {}
+[16.330930] (-) TimerEvent: {}
+[16.431059] (-) TimerEvent: {}
+[16.531190] (-) TimerEvent: {}
+[16.631346] (-) TimerEvent: {}
+[16.731502] (-) TimerEvent: {}
+[16.831629] (-) TimerEvent: {}
+[16.931761] (-) TimerEvent: {}
+[17.031935] (-) TimerEvent: {}
+[17.132085] (-) TimerEvent: {}
+[17.232213] (-) TimerEvent: {}
+[17.332339] (-) TimerEvent: {}
+[17.432623] (-) TimerEvent: {}
+[17.532821] (-) TimerEvent: {}
+[17.632981] (-) TimerEvent: {}
+[17.733105] (-) TimerEvent: {}
+[17.833221] (-) TimerEvent: {}
+[17.933394] (-) TimerEvent: {}
+[18.033524] (-) TimerEvent: {}
+[18.133650] (-) TimerEvent: {}
+[18.233734] (-) TimerEvent: {}
+[18.333876] (-) TimerEvent: {}
+[18.434002] (-) TimerEvent: {}
+[18.534134] (-) TimerEvent: {}
+[18.634264] (-) TimerEvent: {}
+[18.734386] (-) TimerEvent: {}
+[18.834511] (-) TimerEvent: {}
+[18.934634] (-) TimerEvent: {}
+[19.034769] (-) TimerEvent: {}
+[19.134941] (-) TimerEvent: {}
+[19.235085] (-) TimerEvent: {}
+[19.335210] (-) TimerEvent: {}
+[19.435344] (-) TimerEvent: {}
+[19.535476] (-) TimerEvent: {}
+[19.635612] (-) TimerEvent: {}
+[19.735750] (-) TimerEvent: {}
+[19.835935] (-) TimerEvent: {}
+[19.936073] (-) TimerEvent: {}
+[20.036215] (-) TimerEvent: {}
+[20.136373] (-) TimerEvent: {}
+[20.236515] (-) TimerEvent: {}
+[20.336636] (-) TimerEvent: {}
+[20.436815] (-) TimerEvent: {}
+[20.536947] (-) TimerEvent: {}
+[20.637071] (-) TimerEvent: {}
+[20.737196] (-) TimerEvent: {}
+[20.837320] (-) TimerEvent: {}
+[20.937450] (-) TimerEvent: {}
+[21.037580] (-) TimerEvent: {}
+[21.137714] (-) TimerEvent: {}
+[21.237859] (-) TimerEvent: {}
+[21.338021] (-) TimerEvent: {}
+[21.438203] (-) TimerEvent: {}
+[21.538339] (-) TimerEvent: {}
+[21.638470] (-) TimerEvent: {}
+[21.738624] (-) TimerEvent: {}
+[21.838778] (-) TimerEvent: {}
+[21.938915] (-) TimerEvent: {}
+[22.039031] (-) TimerEvent: {}
+[22.139162] (-) TimerEvent: {}
+[22.239296] (-) TimerEvent: {}
+[22.339420] (-) TimerEvent: {}
+[22.439553] (-) TimerEvent: {}
+[22.539734] (-) TimerEvent: {}
+[22.639917] (-) TimerEvent: {}
+[22.740056] (-) TimerEvent: {}
+[22.840204] (-) TimerEvent: {}
+[22.940360] (-) TimerEvent: {}
+[23.040548] (-) TimerEvent: {}
+[23.140686] (-) TimerEvent: {}
+[23.240808] (-) TimerEvent: {}
+[23.340913] (-) TimerEvent: {}
+[23.441080] (-) TimerEvent: {}
+[23.541202] (-) TimerEvent: {}
+[23.641324] (-) TimerEvent: {}
+[23.741405] (-) TimerEvent: {}
+[23.841528] (-) TimerEvent: {}
+[23.941665] (-) TimerEvent: {}
+[24.041834] (-) TimerEvent: {}
+[24.141970] (-) TimerEvent: {}
+[24.242102] (-) TimerEvent: {}
+[24.342266] (-) TimerEvent: {}
+[24.442407] (-) TimerEvent: {}
+[24.542540] (-) TimerEvent: {}
+[24.642675] (-) TimerEvent: {}
+[24.742835] (-) TimerEvent: {}
+[24.842964] (-) TimerEvent: {}
+[24.943115] (-) TimerEvent: {}
+[25.043247] (-) TimerEvent: {}
+[25.143380] (-) TimerEvent: {}
+[25.243510] (-) TimerEvent: {}
+[25.343651] (-) TimerEvent: {}
+[25.443777] (-) TimerEvent: {}
+[25.543974] (-) TimerEvent: {}
+[25.644101] (-) TimerEvent: {}
+[25.744231] (-) TimerEvent: {}
+[25.844366] (-) TimerEvent: {}
+[25.944501] (-) TimerEvent: {}
+[26.044630] (-) TimerEvent: {}
+[26.144804] (-) TimerEvent: {}
+[26.244942] (-) TimerEvent: {}
+[26.345056] (-) TimerEvent: {}
+[26.445168] (-) TimerEvent: {}
+[26.545287] (-) TimerEvent: {}
+[26.645407] (-) TimerEvent: {}
+[26.745521] (-) TimerEvent: {}
+[26.845645] (-) TimerEvent: {}
+[26.945813] (-) TimerEvent: {}
+[27.045960] (-) TimerEvent: {}
+[27.146092] (-) TimerEvent: {}
+[27.246222] (-) TimerEvent: {}
+[27.346352] (-) TimerEvent: {}
+[27.446488] (-) TimerEvent: {}
+[27.546614] (-) TimerEvent: {}
+[27.646776] (-) TimerEvent: {}
+[27.746991] (-) TimerEvent: {}
+[27.847115] (-) TimerEvent: {}
+[27.947228] (-) TimerEvent: {}
+[28.047343] (-) TimerEvent: {}
+[28.147457] (-) TimerEvent: {}
+[28.247579] (-) TimerEvent: {}
+[28.347717] (-) TimerEvent: {}
+[28.447862] (-) TimerEvent: {}
+[28.547995] (-) TimerEvent: {}
+[28.648126] (-) TimerEvent: {}
+[28.748259] (-) TimerEvent: {}
+[28.848422] (-) TimerEvent: {}
+[28.948554] (-) TimerEvent: {}
+[29.048685] (-) TimerEvent: {}
+[29.148867] (-) TimerEvent: {}
+[29.248994] (-) TimerEvent: {}
+[29.349119] (-) TimerEvent: {}
+[29.449247] (-) TimerEvent: {}
+[29.549365] (-) TimerEvent: {}
+[29.649494] (-) TimerEvent: {}
+[29.749622] (-) TimerEvent: {}
+[29.849742] (-) TimerEvent: {}
+[29.949919] (-) TimerEvent: {}
+[30.050036] (-) TimerEvent: {}
+[30.150162] (-) TimerEvent: {}
+[30.250306] (-) TimerEvent: {}
+[30.350491] (-) TimerEvent: {}
+[30.418270] (turtlebot3_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/turtlebot3_example', 'build', '--build-base', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build', 'install', '--record', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/patrol_bundle/turtlebot3_example', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/ubuntu', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANGUAGE': 'ko:en', 'USER': 'ubuntu', 'LC_TIME': 'ko_KR.UTF-8', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"ko","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ubuntu/.config/Code/clp/b0340795d340a837c214965b16773d0a.ko/tcf.json","messagesFile":"/home/ubuntu/.config/Code/clp/b0340795d340a837c214965b16773d0a.ko/6f17636121051a53c88d3e605c491d22af2ba755/nls.messages.json","corruptMarkerFile":"/home/ubuntu/.config/Code/clp/b0340795d340a837c214965b16773d0a.ko/corrupted.info"},"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"b0340795d340a837c214965b16773d0a.ko","_languagePackSupport":true,"_translationsConfigFile":"/home/ubuntu/.config/Code/clp/b0340795d340a837c214965b16773d0a.ko/tcf.json","_cacheRoot":"/home/ubuntu/.config/Code/clp/b0340795d340a837c214965b16773d0a.ko","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.config/Code/clp/b0340795d340a837c214965b16773d0a.ko/6f17636121051a53c88d3e605c491d22af2ba755","_corruptedFile":"/home/ubuntu/.config/Code/clp/b0340795d340a837c214965b16773d0a.ko/corrupted.info"}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-c29ae69c-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1377', 'SYSTEMD_EXEC_PID': '2067', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3101184', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'COLCON_PREFIX_PATH': '/home/ubuntu/tb3_sim_ws/install:/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:40964', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'ubuntu', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/tmp/.tmpxAOAWH:/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/tools/arduino-1.8.3:/home/ubuntu/.vscode/extensions/openai.chatgpt-0.4.19-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/ubuntu30:@/tmp/.ICE-unix/2045,unix/ubuntu30:/tmp/.ICE-unix/2045', 'INVOCATION_ID': '059afda258d8468dbb99099ea30c7e60', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_core:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/ubuntu/.config/Code/CachedData/6f17636121051a53c88d3e605c491d22af2ba755', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_core:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision', 'VSCODE_PID': '3101184'}, 'shell': False}
+[30.450521] (-) TimerEvent: {}
+[30.509786] (turtlebot3_example) StderrLine: {'line': b"/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[30.509912] (turtlebot3_example) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[30.528411] (turtlebot3_example) StderrLine: {'line': b'/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.\n'}
+[30.528516] (turtlebot3_example) StderrLine: {'line': b'!!\n'}
+[30.528546] (turtlebot3_example) StderrLine: {'line': b'\n'}
+[30.528572] (turtlebot3_example) StderrLine: {'line': b'        ********************************************************************************\n'}
+[30.528597] (turtlebot3_example) StderrLine: {'line': b'        Please consider removing the following classifiers in favor of a SPDX license expression:\n'}
+[30.528623] (turtlebot3_example) StderrLine: {'line': b'\n'}
+[30.528646] (turtlebot3_example) StderrLine: {'line': b'        License :: OSI Approved :: Apache Software License\n'}
+[30.528668] (turtlebot3_example) StderrLine: {'line': b'\n'}
+[30.528690] (turtlebot3_example) StderrLine: {'line': b'        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.\n'}
+[30.528713] (turtlebot3_example) StderrLine: {'line': b'        ********************************************************************************\n'}
+[30.528735] (turtlebot3_example) StderrLine: {'line': b'\n'}
+[30.528757] (turtlebot3_example) StderrLine: {'line': b'!!\n'}
+[30.528778] (turtlebot3_example) StderrLine: {'line': b'  self._finalize_license_expression()\n'}
+[30.550591] (-) TimerEvent: {}
+[30.567635] (turtlebot3_example) StdoutLine: {'line': b'running egg_info\n'}
+[30.577004] (turtlebot3_example) StdoutLine: {'line': b'creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info\n'}
+[30.577049] (turtlebot3_example) StdoutLine: {'line': b'writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO\n'}
+[30.577224] (turtlebot3_example) StdoutLine: {'line': b'writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt\n'}
+[30.577336] (turtlebot3_example) StdoutLine: {'line': b'writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt\n'}
+[30.577416] (turtlebot3_example) StdoutLine: {'line': b'writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt\n'}
+[30.577465] (turtlebot3_example) StdoutLine: {'line': b'writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt\n'}
+[30.577513] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[30.597288] (turtlebot3_example) StdoutLine: {'line': b"reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[30.597864] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[30.597951] (turtlebot3_example) StdoutLine: {'line': b'running build\n'}
+[30.598006] (turtlebot3_example) StdoutLine: {'line': b'running build_py\n'}
+[30.598093] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example\n'}
+[30.598192] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example\n'}
+[30.598292] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move\n'}
+[30.598343] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move\n'}
+[30.598404] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move\n'}
+[30.598544] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker\n'}
+[30.598603] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker\n'}
+[30.598627] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker\n'}
+[30.598692] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol\n'}
+[30.598748] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_stop_dummy.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol\n'}
+[30.598798] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol\n'}
+[30.598863] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol\n'}
+[30.598912] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol\n'}
+[30.599005] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move\n'}
+[30.599051] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move\n'}
+[30.599101] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move\n'}
+[30.599185] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[30.599230] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[30.599276] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[30.599670] (turtlebot3_example) StdoutLine: {'line': b'running install\n'}
+[30.602136] (turtlebot3_example) StdoutLine: {'line': b'running install_lib\n'}
+[30.611429] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example\n'}
+[30.611546] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move\n'}
+[30.611575] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move\n'}
+[30.611655] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move\n'}
+[30.611682] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker\n'}
+[30.611737] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker\n'}
+[30.611763] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker\n'}
+[30.611818] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol\n'}
+[30.611892] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_stop_dummy.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol\n'}
+[30.611925] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol\n'}
+[30.611975] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol\n'}
+[30.612024] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol\n'}
+[30.612073] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example\n'}
+[30.612132] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move\n'}
+[30.612182] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move\n'}
+[30.612229] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move\n'}
+[30.612276] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[30.612325] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[30.612380] (turtlebot3_example) StdoutLine: {'line': b'copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection\n'}
+[30.612663] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py to turtlebot3_absolute_move.cpython-310.pyc\n'}
+[30.613432] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/__init__.py to __init__.cpython-310.pyc\n'}
+[30.613525] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-310.pyc\n'}
+[30.613607] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-310.pyc\n'}
+[30.614172] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_stop_dummy.py to turtlebot3_patrol_stop_dummy.cpython-310.pyc\n'}
+[30.614426] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc\n'}
+[30.616311] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-310.pyc\n'}
+[30.616392] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc\n'}
+[30.616875] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc\n'}
+[30.616974] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py to turtlebot3_relative_move.cpython-310.pyc\n'}
+[30.617660] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/__init__.py to __init__.cpython-310.pyc\n'}
+[30.617748] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc\n'}
+[30.618105] (turtlebot3_example) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc\n'}
+[30.618178] (turtlebot3_example) StdoutLine: {'line': b'running install_data\n'}
+[30.618304] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[30.618387] (turtlebot3_example) StdoutLine: {'line': b'copying resource/turtlebot3_example -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[30.618479] (turtlebot3_example) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/turtlebot3_example\n'}
+[30.618546] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/turtlebot3_example/turtlebot3_patrol/config\n'}
+[30.618604] (turtlebot3_example) StdoutLine: {'line': b'copying turtlebot3_example/turtlebot3_patrol/config/waypoints.yaml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/turtlebot3_example/turtlebot3_patrol/config\n'}
+[30.618649] (turtlebot3_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[30.628544] (turtlebot3_example) StdoutLine: {'line': b'Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.3-py3.10.egg-info\n'}
+[30.628903] (turtlebot3_example) StdoutLine: {'line': b'running install_scripts\n'}
+[30.648313] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_absolute_move script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[30.648453] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_interactive_marker script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[30.648485] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_obstacle_detection script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[30.648518] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_client script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[30.648580] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_server script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[30.648611] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_stop_dummy script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[30.648635] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_relative_move script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[30.648966] (turtlebot3_example) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/install.log'\n"}
+[30.650685] (-) TimerEvent: {}
+[30.661243] (turtlebot3_example) CommandEnded: {'returncode': 0}
+[30.666392] (turtlebot3_example) JobEnded: {'identifier': 'turtlebot3_example', 'rc': 0}
+[30.666648] (-) EventReactorShutdown: {}

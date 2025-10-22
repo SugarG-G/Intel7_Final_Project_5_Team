@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_example/turtlebot3_example/build/robot_arm/robot_arm__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "robot_arm::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "robot_arm__py::@71c2000f927c684ce7cf",
+	"name" : "robot_arm__py",
+	"paths" : 
+	{
+		"build" : "robot_arm__py",
+		"source" : "/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_example/turtlebot3_example/build/robot_arm/robot_arm__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_example/turtlebot3_example/build/robot_arm/robot_arm__py/CMakeFiles/robot_arm__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_example/turtlebot3_example/build/robot_arm/robot_arm__py/CMakeFiles/robot_arm__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_example/turtlebot3_example/build/robot_arm/rosidl_generator_py/robot_arm/_robot_arm_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

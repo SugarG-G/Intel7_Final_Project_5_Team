@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_guard_node[0m
+[ 28%] Built target crop_task_node_lib
+[ 71%] Built target lidar_guard_node
+[100%] Built target crop_task_node
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/libcrop_task_node_lib.a
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/crop_task_node
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/lidar_guard_node
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/lidar_guard_node.hpp
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/crop_task_node.hpp
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/config
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/config/crop_task_params.yaml
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/library_path.sh
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/library_path.dsv
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/package_run_dependencies/crop_task_vision
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/parent_prefix_path/crop_task_vision
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/path.sh
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/path.dsv
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.bash
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.sh
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.zsh
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.dsv
+-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/package.dsv
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/packages/crop_task_vision
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/crop_task_visionConfig.cmake
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/crop_task_visionConfig-version.cmake
+-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/package.xml

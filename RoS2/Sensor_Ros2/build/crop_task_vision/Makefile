@@ -223,6 +223,19 @@ crop_task_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crop_task_node.dir/build.make CMakeFiles/crop_task_node.dir/build
 .PHONY : crop_task_node/fast
 
+#=============================================================================
+# Target rules for targets named lidar_guard_node
+
+# Build rule for target.
+lidar_guard_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lidar_guard_node
+.PHONY : lidar_guard_node
+
+# fast build rule for target.
+lidar_guard_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/build
+.PHONY : lidar_guard_node/fast
+
 src/crop_task_main.o: src/crop_task_main.cpp.o
 .PHONY : src/crop_task_main.o
 
@@ -271,6 +284,54 @@ src/crop_task_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crop_task_node_lib.dir/build.make CMakeFiles/crop_task_node_lib.dir/src/crop_task_node.cpp.s
 .PHONY : src/crop_task_node.cpp.s
 
+src/lidar_guard_main.o: src/lidar_guard_main.cpp.o
+.PHONY : src/lidar_guard_main.o
+
+# target to build an object file
+src/lidar_guard_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/src/lidar_guard_main.cpp.o
+.PHONY : src/lidar_guard_main.cpp.o
+
+src/lidar_guard_main.i: src/lidar_guard_main.cpp.i
+.PHONY : src/lidar_guard_main.i
+
+# target to preprocess a source file
+src/lidar_guard_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/src/lidar_guard_main.cpp.i
+.PHONY : src/lidar_guard_main.cpp.i
+
+src/lidar_guard_main.s: src/lidar_guard_main.cpp.s
+.PHONY : src/lidar_guard_main.s
+
+# target to generate assembly for a file
+src/lidar_guard_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/src/lidar_guard_main.cpp.s
+.PHONY : src/lidar_guard_main.cpp.s
+
+src/lidar_guard_node.o: src/lidar_guard_node.cpp.o
+.PHONY : src/lidar_guard_node.o
+
+# target to build an object file
+src/lidar_guard_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/src/lidar_guard_node.cpp.o
+.PHONY : src/lidar_guard_node.cpp.o
+
+src/lidar_guard_node.i: src/lidar_guard_node.cpp.i
+.PHONY : src/lidar_guard_node.i
+
+# target to preprocess a source file
+src/lidar_guard_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/src/lidar_guard_node.cpp.i
+.PHONY : src/lidar_guard_node.cpp.i
+
+src/lidar_guard_node.s: src/lidar_guard_node.cpp.s
+.PHONY : src/lidar_guard_node.s
+
+# target to generate assembly for a file
+src/lidar_guard_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_guard_node.dir/build.make CMakeFiles/lidar_guard_node.dir/src/lidar_guard_node.cpp.s
+.PHONY : src/lidar_guard_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +349,19 @@ help:
 	@echo "... uninstall"
 	@echo "... crop_task_node"
 	@echo "... crop_task_node_lib"
+	@echo "... lidar_guard_node"
 	@echo "... src/crop_task_main.o"
 	@echo "... src/crop_task_main.i"
 	@echo "... src/crop_task_main.s"
 	@echo "... src/crop_task_node.o"
 	@echo "... src/crop_task_node.i"
 	@echo "... src/crop_task_node.s"
+	@echo "... src/lidar_guard_main.o"
+	@echo "... src/lidar_guard_main.i"
+	@echo "... src/lidar_guard_main.s"
+	@echo "... src/lidar_guard_node.o"
+	@echo "... src/lidar_guard_node.i"
+	@echo "... src/lidar_guard_node.s"
 .PHONY : help
 
 

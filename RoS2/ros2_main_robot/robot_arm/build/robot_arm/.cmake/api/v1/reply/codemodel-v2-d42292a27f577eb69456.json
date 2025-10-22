@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9be6d3025c91141fd9a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "robot_arm__py",
+					"jsonFile" : "directory-robot_arm__py-f2c693289825f726e540.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/robot_arm/robot_arm__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robot_arm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_arm_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_arm_egg-be9d0f0ccaeb6bd0b441.json",
+					"name" : "ament_cmake_python_build_robot_arm_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_arm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_arm-049ac2ec1824810310b0.json",
+					"name" : "ament_cmake_python_copy_robot_arm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm-33b1a8a029ac7febf9a9.json",
+					"name" : "robot_arm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__cpp-6966f5128809178f1b1c.json",
+					"name" : "robot_arm__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_arm__py::@71c2000f927c684ce7cf",
+					"jsonFile" : "target-robot_arm__py-f9e0886577587958eddc.json",
+					"name" : "robot_arm__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_generator_c-c85337f4ff00e51d6266.json",
+					"name" : "robot_arm__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_generator_py-6e4adfd98c4a3e6db086.json",
+					"name" : "robot_arm__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_c-dfceec0b1f9a78a334ae.json",
+					"name" : "robot_arm__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_c__pyext-d17a802d408022bb3a1b.json",
+					"name" : "robot_arm__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_cpp-82bfe0c5f6967cf3f4cb.json",
+					"name" : "robot_arm__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_fastrtps_c-fb2588fb504543f05a4d.json",
+					"name" : "robot_arm__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_fastrtps_c__pyext-2209299597e24cbe40ba.json",
+					"name" : "robot_arm__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_fastrtps_cpp-52acf11681b9785564ca.json",
+					"name" : "robot_arm__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_introspection_c-3cc19e0f18460e04ee83.json",
+					"name" : "robot_arm__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_introspection_c__pyext-dacee604c16b5a5d2007.json",
+					"name" : "robot_arm__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm__rosidl_typesupport_introspection_cpp-dd781a528b3aeee6bedf.json",
+					"name" : "robot_arm__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm_client-0a1e43c14943a5b5763a.json",
+					"name" : "robot_arm_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm_server-fe2da71674b244e51b1b.json",
+					"name" : "robot_arm_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm_uninstall-1792583c2447ed8d48fb.json",
+					"name" : "robot_arm_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0bfa66eed410e3033364.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm",
+		"source" : "/home/ros/turtlebot3_ws/src/robot_arm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

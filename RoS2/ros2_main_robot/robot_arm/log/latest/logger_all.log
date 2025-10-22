@@ -1,0 +1,83 @@
+[0.508s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.508s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7f1a4be0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7f341ff0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7f341ff0>>)
+[1.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.449s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros/turtlebot3_ws/src/robot_arm'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.513s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'robot_arm'
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.615s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/ros/turtlebot3_ws/install
+[1.628s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.899s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_args' from command line to 'None'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_target' from command line to 'None'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_clean_first' from command line to 'False'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_force_configure' from command line to 'False'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'ament_cmake_args' from command line to 'None'
+[1.900s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.901s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.901s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm', 'merge_install': False, 'path': '/home/ros/turtlebot3_ws/src/robot_arm', 'symlink_install': False, 'test_result_base': None}
+[1.901s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.905s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.906s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/turtlebot3_ws/src/robot_arm' with build type 'ament_cmake'
+[1.906s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/turtlebot3_ws/src/robot_arm'
+[1.917s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/turtlebot3_ws/install/turtlebot3_teleop:/home/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ros/turtlebot3_ws/src/robot_arm -DCMAKE_INSTALL_PREFIX=/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm
+[15.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/turtlebot3_ws/install/turtlebot3_teleop:/home/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ros/turtlebot3_ws/src/robot_arm -DCMAKE_INSTALL_PREFIX=/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm
+[15.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/turtlebot3_ws/install/turtlebot3_teleop:/home/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm -- -j4 -l4
+[44.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros/turtlebot3_ws/install/turtlebot3_teleop:/home/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ros/turtlebot3_ws/src/robot_arm/build/robot_arm -- -j4 -l4
+[44.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm)
+[44.931s] Level 1:colcon.colcon_core.environment:checking '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm' for CMake module files
+[44.932s] Level 1:colcon.colcon_core.environment:checking '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm' for CMake config files
+[44.934s] Level 1:colcon.colcon_core.environment:checking '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/bin'
+[44.934s] Level 1:colcon.colcon_core.environment:checking '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/lib/pkgconfig/robot_arm.pc'
+[44.935s] Level 1:colcon.colcon_core.environment:checking '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/lib/python3.10/site-packages'
+[44.936s] Level 1:colcon.colcon_core.environment:checking '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/bin'
+[44.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/share/robot_arm/package.ps1'
+[44.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/share/robot_arm/package.dsv'
+[44.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/share/robot_arm/package.sh'
+[44.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/share/robot_arm/package.bash'
+[44.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/share/robot_arm/package.zsh'
+[44.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/turtlebot3_ws/src/robot_arm/install/robot_arm/share/colcon-core/packages/robot_arm)
+[44.968s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[44.969s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[44.969s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[44.970s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[45.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.038s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.053s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[45.053s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/turtlebot3_ws/src/robot_arm/install/local_setup.ps1'
+[45.062s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/turtlebot3_ws/src/robot_arm/install/_local_setup_util_ps1.py'
+[45.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/turtlebot3_ws/src/robot_arm/install/setup.ps1'
+[45.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/turtlebot3_ws/src/robot_arm/install/local_setup.sh'
+[45.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/turtlebot3_ws/src/robot_arm/install/_local_setup_util_sh.py'
+[45.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/turtlebot3_ws/src/robot_arm/install/setup.sh'
+[45.104s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/turtlebot3_ws/src/robot_arm/install/local_setup.bash'
+[45.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/turtlebot3_ws/src/robot_arm/install/setup.bash'
+[45.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/turtlebot3_ws/src/robot_arm/install/local_setup.zsh'
+[45.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/turtlebot3_ws/src/robot_arm/install/setup.zsh'

@@ -1,0 +1,13 @@
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/crop_task_vision/src/lidar_guard_node.cpp:1:10: fatal error: crop_task_vision/lidar_guard_node.hpp: 그런 파일이나 디렉터리가 없습니다
+    1 | #include "crop_task_vision/lidar_guard_node.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lidar_guard_node.dir/build.make:76: CMakeFiles/lidar_guard_node.dir/src/lidar_guard_node.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/crop_task_vision/src/lidar_guard_main.cpp:3:10: fatal error: crop_task_vision/lidar_guard_node.hpp: 그런 파일이나 디렉터리가 없습니다
+    3 | #include "crop_task_vision/lidar_guard_node.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lidar_guard_node.dir/build.make:90: CMakeFiles/lidar_guard_node.dir/src/lidar_guard_main.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lidar_guard_node.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

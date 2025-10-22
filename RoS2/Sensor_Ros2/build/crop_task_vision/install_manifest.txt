@@ -1,5 +1,7 @@
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/libcrop_task_node_lib.a
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/crop_task_node
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/lidar_guard_node
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/lidar_guard_node.hpp
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/crop_task_node.hpp
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/config/crop_task_params.yaml
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/library_path.sh

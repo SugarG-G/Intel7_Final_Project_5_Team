@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher -- -j24 -l24
+[0.037s] Consolidate compiler generated dependencies of target i2c_distance_node
+[0.047s] [ 50%] Building CXX object CMakeFiles/i2c_distance_node.dir/src/i2c_distance_node.cpp.o
+[2.098s] [100%] Linking CXX executable i2c_distance_node
+[2.210s] [100%] Built target i2c_distance_node
+[2.217s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher -- -j24 -l24
+[2.222s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher
+[2.228s] -- Install configuration: ""
+[2.228s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/lib/i2c_distance_publisher/i2c_distance_node
+[2.229s] -- Set runtime path of "/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/lib/i2c_distance_publisher/i2c_distance_node" to ""
+[2.229s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/include
+[2.229s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/include/i2c_distance_publisher
+[2.229s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/include/i2c_distance_publisher/i2c_distance_node.hpp
+[2.229s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/ament_index/resource_index/package_run_dependencies/i2c_distance_publisher
+[2.229s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/ament_index/resource_index/parent_prefix_path/i2c_distance_publisher
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/environment/ament_prefix_path.sh
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/environment/ament_prefix_path.dsv
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/environment/path.sh
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/environment/path.dsv
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/local_setup.bash
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/local_setup.sh
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/local_setup.zsh
+[2.230s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/local_setup.dsv
+[2.231s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/package.dsv
+[2.231s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/ament_index/resource_index/packages/i2c_distance_publisher
+[2.231s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/cmake/i2c_distance_publisherConfig.cmake
+[2.231s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/cmake/i2c_distance_publisherConfig-version.cmake
+[2.231s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/i2c_distance_publisher/share/i2c_distance_publisher/package.xml
+[2.232s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/i2c_distance_publisher

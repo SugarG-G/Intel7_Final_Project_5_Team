@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_arm__py",
+		"source" : "/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_example/turtlebot3_example/build/robot_arm/robot_arm__py"
+	}
+}

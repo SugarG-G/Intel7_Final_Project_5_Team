@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_arm",
+  "non_idl_tuples": [
+    "/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_example/turtlebot3_example/robot_arm:srv/RobotArmCommand.srv"
+  ]
+}

@@ -1,0 +1,5 @@
+source;share/robot_arm/local_setup.bash
+source;share/robot_arm/local_setup.dsv
+source;share/robot_arm/local_setup.ps1
+source;share/robot_arm/local_setup.sh
+source;share/robot_arm/local_setup.zsh

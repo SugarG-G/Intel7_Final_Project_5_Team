@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: turtlebot3_example
+Version: 2.3.3
+Summary: Examples of Different TurtleBot3 Usage.
+Author: ['Jeonggeun Lim', 'Will Son', 'Ryan Shim', 'Gilbert', 'Wonho Yun', 'Junyeong Jeong', 'YeonSoo Noh']
+Author-email: ['ljg@robotis.com', 'willson@robotis.com', 'jhshim@robotis.com', 'kkjong@robotis.com', 'ywh@robotis.com', 'junyeong4321@gmail.com', 'nys8277@gmail.com']
+Maintainer: Pyo
+Maintainer-email: pyo@robotis.com
+License: Apache License, Version 2.0
+Keywords: ROS,ROS2,examples,rclpy
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Dist: setuptools
+Requires-Dist: launch
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

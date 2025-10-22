@@ -1,0 +1,99 @@
+[30.419s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/patrol_bundle/turtlebot3_example': PYTHONPATH=/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build install --record /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[30.509s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[30.509s]   warnings.warn(msg)
+[30.528s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[30.528s] !!
+[30.528s] 
+[30.528s]         ********************************************************************************
+[30.528s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[30.528s] 
+[30.528s]         License :: OSI Approved :: Apache Software License
+[30.528s] 
+[30.528s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[30.528s]         ********************************************************************************
+[30.528s] 
+[30.528s] !!
+[30.528s]   self._finalize_license_expression()
+[30.567s] running egg_info
+[30.576s] creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[30.576s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[30.577s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[30.577s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[30.577s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[30.577s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[30.577s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[30.597s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[30.597s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[30.597s] running build
+[30.597s] running build_py
+[30.598s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example
+[30.598s] copying turtlebot3_example/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example
+[30.598s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[30.598s] copying turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[30.598s] copying turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[30.598s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[30.598s] copying turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[30.598s] copying turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[30.598s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[30.598s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_stop_dummy.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[30.598s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[30.598s] copying turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[30.598s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[30.598s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[30.598s] copying turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[30.599s] copying turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[30.599s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[30.599s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[30.599s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[30.599s] running install
+[30.602s] running install_lib
+[30.611s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[30.611s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[30.611s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[30.611s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_stop_dummy.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[30.611s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[30.612s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[30.612s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[30.612s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[30.612s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[30.612s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[30.612s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[30.612s] copying /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[30.612s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py to turtlebot3_absolute_move.cpython-310.pyc
+[30.613s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/__init__.py to __init__.cpython-310.pyc
+[30.613s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-310.pyc
+[30.613s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-310.pyc
+[30.614s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_stop_dummy.py to turtlebot3_patrol_stop_dummy.cpython-310.pyc
+[30.614s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc
+[30.616s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-310.pyc
+[30.616s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc
+[30.616s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc
+[30.616s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py to turtlebot3_relative_move.cpython-310.pyc
+[30.617s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/__init__.py to __init__.cpython-310.pyc
+[30.617s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc
+[30.618s] byte-compiling /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc
+[30.618s] running install_data
+[30.618s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/ament_index/resource_index/packages
+[30.618s] copying resource/turtlebot3_example -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/ament_index/resource_index/packages
+[30.618s] copying package.xml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/turtlebot3_example
+[30.618s] creating /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/turtlebot3_example/turtlebot3_patrol/config
+[30.618s] copying turtlebot3_example/turtlebot3_patrol/config/waypoints.yaml -> /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/share/turtlebot3_example/turtlebot3_patrol/config
+[30.618s] running install_egg_info
+[30.628s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.3-py3.10.egg-info
+[30.628s] running install_scripts
+[30.648s] Installing turtlebot3_absolute_move script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example
+[30.648s] Installing turtlebot3_interactive_marker script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example
+[30.648s] Installing turtlebot3_obstacle_detection script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example
+[30.648s] Installing turtlebot3_patrol_client script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example
+[30.648s] Installing turtlebot3_patrol_server script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example
+[30.648s] Installing turtlebot3_patrol_stop_dummy script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example
+[30.648s] Installing turtlebot3_relative_move script to /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/turtlebot3_example
+[30.648s] writing list of installed files to '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/install.log'
+[30.661s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/patrol_bundle/turtlebot3_example' returned '0': PYTHONPATH=/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/build install --record /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/build/turtlebot3_example/install.log --single-version-externally-managed install_data

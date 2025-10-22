@@ -756,6 +756,40 @@ ros2 run turtlebot3_example turtlebot3_patrol_client_cpp
   ```
 - **테스트 팁** 실제 농작물 대신 높은 채도/명암 대비의 컬러 패널(예: 형광 주황색 종이) 또는 출력물에 “CROP” 문구가 있는 마커를 카메라 앞에 배치하면 HSV 임계값 튜닝이 수월합니다. 감지 후 재시동이 즉시 반복되면 `release_frames`를 늘려 동일 목표물이 시야에서 사라질 때까지 재감지를 지연시키십시오.
 
+### 4.6 LiDAR 감시 노드 (`lidar_guard_node`)
+- **위치** `RoS2/Sensor_Ros2/src/crop_task_vision/src/lidar_guard_node.cpp` 는 전방 LiDAR 데이터를 감시해 일정 거리 이내에 장애물이 들어오면 이벤트를 발생시키고(필요 시 `patrol/stop` 신호도 함께 전송) 더미 노드에서 실시간으로 확인할 수 있도록 합니다.
+- **탐지 로직** `/scan` 토픽의 중앙 시야(기본 ±35°)에서 최소 거리를 계산하고, `trigger_distance` 이하가 지정 횟수(`required_hits`)만큼 연속되면 `lidar_obstacle_detected:<거리>` 문자열을 `crop_task/events`로 publish 합니다. 장애물이 멀어져 `release_distance` 이상으로 회복되면 `lidar_clear` 이벤트와 함께 정지 해제 신호를 냅니다.
+- **실행 예시**
+  ```bash
+  cd RoS2/Sensor_Ros2
+  colcon build --packages-select crop_task_vision
+  . install/setup.bash
+  # LiDAR 감시 노드 (기본값: /scan, trigger 0.45m, release 0.55m)
+  ros2 run crop_task_vision lidar_guard_node --ros-args \
+    -p trigger_distance:=0.40 -p release_distance:=0.55
+  # 별도 터미널에서 더미 노드 실행 (이벤트 자동 표시)
+  ros2 run turtlebot3_example turtlebot3_patrol_stop_dummy
+  ```
+- **더미 노드 확장** `turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_stop_dummy.py` 는 `crop_task/events` 를 구독하고 `/scan` 최소 거리를 추적합니다. 콘솔 명령: `s`(정지), `r`(재개), `l`(1회 확인), `c`(실시간 조회 토글, 다시 `c` 입력 시 종료), `q`(프로그램 종료). 감지되면 `[event] ...` 혹은 `물체 탐지!` 메시지가 즉시 표시되며, `laser_topic`·`laser_detection_distance` 파라미터로 센서 이름과 임계값을 조정할 수 있습니다.
+
+### 4.7 I2C 거리 센서 퍼블리셔 (`i2c_distance_publisher`)
+- **위치** `RoS2/Sensor_Ros2/src/i2c_distance_publisher` 패키지는 I2C 기반 거리(ToF) 센서 값을 ROS2 `sensor_msgs/Range` 메시지로 퍼블리시합니다. 기본 세팅은 `/dev/i2c-1` 버스의 주소 `0x62`(Lidar-Lite/VL53L0X 계열) 센서를 대상으로 하며, 필요한 레지스터와 스케일을 파라미터로 조정할 수 있습니다.
+- **주요 파라미터** `bus_path`, `device_address`, `trigger_register`, `trigger_value`, `trigger_delay_sec`, `result_register_high/low`, `contiguous_result`, `distance_scale`, `distance_offset` 등으로 센서 레지스터 구성을 맞출 수 있습니다. 퍼블리시 토픽(`publish_topic`), 프레임(`frame_id`), 최소/최대 거리, FOV도 파라미터화했습니다.
+- **빌드 & 실행**
+  ```bash
+  cd RoS2/Sensor_Ros2
+  colcon build --packages-select i2c_distance_publisher
+  . install/setup.bash
+  ros2 run i2c_distance_publisher i2c_distance_node --ros-args \
+    -p bus_path:=/dev/i2c-1 \
+    -p device_address:=0x62 \
+    -p publish_topic:=/tb3_2/i2c_front \
+    -p frame_id:=tb3_2/i2c_front \
+    -p distance_scale:=0.01 \
+    -p range_min:=0.05 -p range_max:=2.0
+  ```
+- **더미 노드 연동** 더미 노드를 실행할 때 `--ros-args -p laser_topic:=/tb3_2/i2c_front` 와 같이 I2C 퍼블리셔의 토픽을 지정하면, `l`/`c` 입력으로 해당 센서 값을 바로 확인할 수 있습니다. 센서가 여러 개인 경우 동일 노드를 주소/프레임만 바꿔 복수 실행해도 됩니다.
+
 ---
 
 ## 마무리 메모

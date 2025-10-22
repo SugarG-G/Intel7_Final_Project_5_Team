@@ -1,0 +1,368 @@
+[0.000000] (-) TimerEvent: {}
+[0.000061] (-) JobUnselected: {'identifier': 'sub_robot_bringup'}
+[0.000412] (-) JobUnselected: {'identifier': 'sub_robot_core'}
+[0.000458] (-) JobUnselected: {'identifier': 'sub_robot_sim'}
+[0.000496] (-) JobUnselected: {'identifier': 'wall_follower'}
+[0.000582] (crop_task_vision) JobQueued: {'identifier': 'crop_task_vision', 'dependencies': OrderedDict()}
+[0.000651] (crop_task_vision) JobStarted: {'identifier': 'crop_task_vision'}
+[0.006363] (crop_task_vision) JobProgress: {'identifier': 'crop_task_vision', 'progress': 'cmake'}
+[0.006853] (crop_task_vision) JobProgress: {'identifier': 'crop_task_vision', 'progress': 'build'}
+[0.007489] (crop_task_vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ubuntu'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'ko:en'), ('USER', 'ubuntu'), ('LC_TIME', 'ko_KR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"ko","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/tcf.json","messagesFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/6f17636121051a53c88d3e605c491d22af2ba755/nls.messages.json","corruptMarkerFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/corrupted.info"},"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"c4cd97fcd2f75e8f5da1b51c72853db1.ko","_languagePackSupport":true,"_translationsConfigFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/tcf.json","_cacheRoot":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/6f17636121051a53c88d3e605c491d22af2ba755","_corruptedFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-c29ae69c-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1377'), ('SYSTEMD_EXEC_PID', '2067'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1175271'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/ubuntu/tb3_sim_ws/install:/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:40964'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'ubuntu'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/bin:/tmp/.tmpoGUV4r:/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/tools/arduino-1.8.3:/home/ubuntu/.vscode/extensions/openai.chatgpt-0.4.19-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ubuntu30:@/tmp/.ICE-unix/2045,unix/ubuntu30:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '059afda258d8468dbb99099ea30c7e60'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_core:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ubuntu/.config/Code/CachedData/6f17636121051a53c88d3e605c491d22af2ba755'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_core:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble'), ('VSCODE_PID', '1175271')]), 'shell': False}
+[0.025081] (crop_task_vision) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099877] (-) TimerEvent: {}
+[0.107737] (crop_task_vision) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.125773] (crop_task_vision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.127218] (crop_task_vision) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.130678] (crop_task_vision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.136117] (crop_task_vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.142687] (crop_task_vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.160942] (crop_task_vision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.161951] (crop_task_vision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199963] (-) TimerEvent: {}
+[0.231096] (crop_task_vision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.258601] (crop_task_vision) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.274446] (crop_task_vision) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.300039] (-) TimerEvent: {}
+[0.327705] (crop_task_vision) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.342623] (crop_task_vision) StdoutLine: {'line': b'-- Generating done\n'}
+[0.346674] (crop_task_vision) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision\n'}
+[0.369752] (crop_task_vision) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target crop_task_node_lib\n'}
+[0.372538] (crop_task_vision) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/lidar_guard_node.dir/src/lidar_guard_node.cpp.o\n'}
+[0.374459] (crop_task_vision) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/lidar_guard_node.dir/src/lidar_guard_main.cpp.o\n'}
+[0.380458] (crop_task_vision) StdoutLine: {'line': b'[ 57%] Built target crop_task_node_lib\n'}
+[0.390349] (crop_task_vision) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target crop_task_node\n'}
+[0.400133] (-) TimerEvent: {}
+[0.401566] (crop_task_vision) StdoutLine: {'line': b'[ 85%] Built target crop_task_node\n'}
+[0.500263] (-) TimerEvent: {}
+[0.600442] (-) TimerEvent: {}
+[0.700665] (-) TimerEvent: {}
+[0.800848] (-) TimerEvent: {}
+[0.900999] (-) TimerEvent: {}
+[1.001168] (-) TimerEvent: {}
+[1.101423] (-) TimerEvent: {}
+[1.201615] (-) TimerEvent: {}
+[1.301804] (-) TimerEvent: {}
+[1.401992] (-) TimerEvent: {}
+[1.502205] (-) TimerEvent: {}
+[1.602429] (-) TimerEvent: {}
+[1.702601] (-) TimerEvent: {}
+[1.802767] (-) TimerEvent: {}
+[1.902933] (-) TimerEvent: {}
+[2.003272] (-) TimerEvent: {}
+[2.103467] (-) TimerEvent: {}
+[2.203675] (-) TimerEvent: {}
+[2.303831] (-) TimerEvent: {}
+[2.403995] (-) TimerEvent: {}
+[2.504197] (-) TimerEvent: {}
+[2.604398] (-) TimerEvent: {}
+[2.704564] (-) TimerEvent: {}
+[2.804743] (-) TimerEvent: {}
+[2.904903] (-) TimerEvent: {}
+[3.005150] (-) TimerEvent: {}
+[3.105363] (-) TimerEvent: {}
+[3.205518] (-) TimerEvent: {}
+[3.305676] (-) TimerEvent: {}
+[3.405827] (-) TimerEvent: {}
+[3.505975] (-) TimerEvent: {}
+[3.606118] (-) TimerEvent: {}
+[3.706258] (-) TimerEvent: {}
+[3.806413] (-) TimerEvent: {}
+[3.906561] (-) TimerEvent: {}
+[4.006710] (-) TimerEvent: {}
+[4.106858] (-) TimerEvent: {}
+[4.207003] (-) TimerEvent: {}
+[4.307141] (-) TimerEvent: {}
+[4.407286] (-) TimerEvent: {}
+[4.507448] (-) TimerEvent: {}
+[4.607748] (-) TimerEvent: {}
+[4.707926] (-) TimerEvent: {}
+[4.808068] (-) TimerEvent: {}
+[4.908206] (-) TimerEvent: {}
+[5.008358] (-) TimerEvent: {}
+[5.108523] (-) TimerEvent: {}
+[5.208709] (-) TimerEvent: {}
+[5.258126] (crop_task_vision) StdoutLine: {'line': b'[100%] Linking CXX executable lidar_guard_node\n'}
+[5.308787] (-) TimerEvent: {}
+[5.408933] (-) TimerEvent: {}
+[5.509080] (-) TimerEvent: {}
+[5.513665] (crop_task_vision) StdoutLine: {'line': b'[100%] Built target lidar_guard_node\n'}
+[5.522213] (crop_task_vision) CommandEnded: {'returncode': 0}
+[5.522827] (crop_task_vision) JobProgress: {'identifier': 'crop_task_vision', 'progress': 'install'}
+[5.527976] (crop_task_vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision'], 'cwd': '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ubuntu'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'ko:en'), ('USER', 'ubuntu'), ('LC_TIME', 'ko_KR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"ko","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/tcf.json","messagesFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/6f17636121051a53c88d3e605c491d22af2ba755/nls.messages.json","corruptMarkerFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/corrupted.info"},"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"c4cd97fcd2f75e8f5da1b51c72853db1.ko","_languagePackSupport":true,"_translationsConfigFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/tcf.json","_cacheRoot":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/6f17636121051a53c88d3e605c491d22af2ba755","_corruptedFile":"/home/ubuntu/.config/Code/clp/c4cd97fcd2f75e8f5da1b51c72853db1.ko/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-c29ae69c-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1377'), ('SYSTEMD_EXEC_PID', '2067'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1175271'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/ubuntu/tb3_sim_ws/install:/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:40964'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'ubuntu'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/bin:/tmp/.tmpoGUV4r:/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/tools/arduino-1.8.3:/home/ubuntu/.vscode/extensions/openai.chatgpt-0.4.19-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/ubuntu30:@/tmp/.ICE-unix/2045,unix/ubuntu30:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', '059afda258d8468dbb99099ea30c7e60'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_core:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/ubuntu/.config/Code/CachedData/6f17636121051a53c88d3e605c491d22af2ba755'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_follower:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/home/ubuntu/tb3_sim_ws/install/turtlebot3_gazebo:/home/ubuntu/tb3_sim_ws/install/turtlebot3_fake_node:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_bringup:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_sim:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/sub_robot_core:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble'), ('VSCODE_PID', '1175271')]), 'shell': False}
+[5.532804] (crop_task_vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.532872] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/libcrop_task_node_lib.a\n'}
+[5.532949] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/crop_task_node\n'}
+[5.533009] (crop_task_vision) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/lidar_guard_node\n'}
+[5.535169] (crop_task_vision) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/lidar_guard_node" to ""\n'}
+[5.535247] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include\n'}
+[5.535278] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision\n'}
+[5.535344] (crop_task_vision) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/lidar_guard_node.hpp\n'}
+[5.535373] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/crop_task_node.hpp\n'}
+[5.535402] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/config\n'}
+[5.535430] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/config/crop_task_params.yaml\n'}
+[5.535458] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/library_path.sh\n'}
+[5.535485] (crop_task_vision) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/library_path.dsv\n'}
+[5.535669] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/package_run_dependencies/crop_task_vision\n'}
+[5.535701] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/parent_prefix_path/crop_task_vision\n'}
+[5.535751] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/ament_prefix_path.sh\n'}
+[5.535816] (crop_task_vision) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/ament_prefix_path.dsv\n'}
+[5.535890] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/path.sh\n'}
+[5.535916] (crop_task_vision) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/path.dsv\n'}
+[5.535941] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.bash\n'}
+[5.535968] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.sh\n'}
+[5.535992] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.zsh\n'}
+[5.536017] (crop_task_vision) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.dsv\n'}
+[5.536041] (crop_task_vision) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/package.dsv\n'}
+[5.536065] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/packages/crop_task_vision\n'}
+[5.536088] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.536112] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.536135] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/crop_task_visionConfig.cmake\n'}
+[5.536158] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/crop_task_visionConfig-version.cmake\n'}
+[5.536181] (crop_task_vision) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/package.xml\n'}
+[5.609162] (-) TimerEvent: {}
+[5.709371] (-) TimerEvent: {}
+[5.809532] (-) TimerEvent: {}
+[5.909686] (-) TimerEvent: {}
+[6.009839] (-) TimerEvent: {}
+[6.109982] (-) TimerEvent: {}
+[6.210126] (-) TimerEvent: {}
+[6.310273] (-) TimerEvent: {}
+[6.410426] (-) TimerEvent: {}
+[6.510615] (-) TimerEvent: {}
+[6.610759] (-) TimerEvent: {}
+[6.710951] (-) TimerEvent: {}
+[6.811104] (-) TimerEvent: {}
+[6.911252] (-) TimerEvent: {}
+[7.011410] (-) TimerEvent: {}
+[7.111605] (-) TimerEvent: {}
+[7.211787] (-) TimerEvent: {}
+[7.311927] (-) TimerEvent: {}
+[7.412116] (-) TimerEvent: {}
+[7.512312] (-) TimerEvent: {}
+[7.612503] (-) TimerEvent: {}
+[7.712696] (-) TimerEvent: {}
+[7.812842] (-) TimerEvent: {}
+[7.913028] (-) TimerEvent: {}
+[8.013238] (-) TimerEvent: {}
+[8.113387] (-) TimerEvent: {}
+[8.213530] (-) TimerEvent: {}
+[8.313721] (-) TimerEvent: {}
+[8.413870] (-) TimerEvent: {}
+[8.514019] (-) TimerEvent: {}
+[8.614222] (-) TimerEvent: {}
+[8.714435] (-) TimerEvent: {}
+[8.814593] (-) TimerEvent: {}
+[8.914789] (-) TimerEvent: {}
+[9.014989] (-) TimerEvent: {}
+[9.115190] (-) TimerEvent: {}
+[9.215351] (-) TimerEvent: {}
+[9.315496] (-) TimerEvent: {}
+[9.415640] (-) TimerEvent: {}
+[9.515785] (-) TimerEvent: {}
+[9.615973] (-) TimerEvent: {}
+[9.716116] (-) TimerEvent: {}
+[9.816285] (-) TimerEvent: {}
+[9.916487] (-) TimerEvent: {}
+[10.016644] (-) TimerEvent: {}
+[10.116836] (-) TimerEvent: {}
+[10.217055] (-) TimerEvent: {}
+[10.317263] (-) TimerEvent: {}
+[10.417456] (-) TimerEvent: {}
+[10.517605] (-) TimerEvent: {}
+[10.617812] (-) TimerEvent: {}
+[10.718055] (-) TimerEvent: {}
+[10.818269] (-) TimerEvent: {}
+[10.918464] (-) TimerEvent: {}
+[11.018783] (-) TimerEvent: {}
+[11.119172] (-) TimerEvent: {}
+[11.219382] (-) TimerEvent: {}
+[11.319706] (-) TimerEvent: {}
+[11.419945] (-) TimerEvent: {}
+[11.520236] (-) TimerEvent: {}
+[11.620542] (-) TimerEvent: {}
+[11.720786] (-) TimerEvent: {}
+[11.820986] (-) TimerEvent: {}
+[11.921201] (-) TimerEvent: {}
+[12.021430] (-) TimerEvent: {}
+[12.121652] (-) TimerEvent: {}
+[12.221918] (-) TimerEvent: {}
+[12.322128] (-) TimerEvent: {}
+[12.422383] (-) TimerEvent: {}
+[12.522599] (-) TimerEvent: {}
+[12.622814] (-) TimerEvent: {}
+[12.723029] (-) TimerEvent: {}
+[12.823219] (-) TimerEvent: {}
+[12.923374] (-) TimerEvent: {}
+[13.023574] (-) TimerEvent: {}
+[13.123752] (-) TimerEvent: {}
+[13.223931] (-) TimerEvent: {}
+[13.324115] (-) TimerEvent: {}
+[13.424311] (-) TimerEvent: {}
+[13.524510] (-) TimerEvent: {}
+[13.624696] (-) TimerEvent: {}
+[13.724875] (-) TimerEvent: {}
+[13.825066] (-) TimerEvent: {}
+[13.925294] (-) TimerEvent: {}
+[14.025484] (-) TimerEvent: {}
+[14.125659] (-) TimerEvent: {}
+[14.225841] (-) TimerEvent: {}
+[14.326019] (-) TimerEvent: {}
+[14.426198] (-) TimerEvent: {}
+[14.526358] (-) TimerEvent: {}
+[14.626541] (-) TimerEvent: {}
+[14.726726] (-) TimerEvent: {}
+[14.826907] (-) TimerEvent: {}
+[14.927085] (-) TimerEvent: {}
+[15.027382] (-) TimerEvent: {}
+[15.127563] (-) TimerEvent: {}
+[15.227743] (-) TimerEvent: {}
+[15.327924] (-) TimerEvent: {}
+[15.428218] (-) TimerEvent: {}
+[15.528356] (-) TimerEvent: {}
+[15.628550] (-) TimerEvent: {}
+[15.728726] (-) TimerEvent: {}
+[15.828905] (-) TimerEvent: {}
+[15.929087] (-) TimerEvent: {}
+[16.029291] (-) TimerEvent: {}
+[16.129477] (-) TimerEvent: {}
+[16.229655] (-) TimerEvent: {}
+[16.329835] (-) TimerEvent: {}
+[16.430128] (-) TimerEvent: {}
+[16.530365] (-) TimerEvent: {}
+[16.630567] (-) TimerEvent: {}
+[16.730755] (-) TimerEvent: {}
+[16.830935] (-) TimerEvent: {}
+[16.931112] (-) TimerEvent: {}
+[17.031296] (-) TimerEvent: {}
+[17.131491] (-) TimerEvent: {}
+[17.231701] (-) TimerEvent: {}
+[17.331913] (-) TimerEvent: {}
+[17.432089] (-) TimerEvent: {}
+[17.532273] (-) TimerEvent: {}
+[17.632475] (-) TimerEvent: {}
+[17.732666] (-) TimerEvent: {}
+[17.832854] (-) TimerEvent: {}
+[17.933039] (-) TimerEvent: {}
+[18.033244] (-) TimerEvent: {}
+[18.133595] (-) TimerEvent: {}
+[18.233804] (-) TimerEvent: {}
+[18.333973] (-) TimerEvent: {}
+[18.434121] (-) TimerEvent: {}
+[18.534273] (-) TimerEvent: {}
+[18.634485] (-) TimerEvent: {}
+[18.734696] (-) TimerEvent: {}
+[18.834852] (-) TimerEvent: {}
+[18.935061] (-) TimerEvent: {}
+[19.035255] (-) TimerEvent: {}
+[19.135427] (-) TimerEvent: {}
+[19.235602] (-) TimerEvent: {}
+[19.335763] (-) TimerEvent: {}
+[19.435926] (-) TimerEvent: {}
+[19.536078] (-) TimerEvent: {}
+[19.636415] (-) TimerEvent: {}
+[19.736561] (-) TimerEvent: {}
+[19.836711] (-) TimerEvent: {}
+[19.936869] (-) TimerEvent: {}
+[20.037019] (-) TimerEvent: {}
+[20.137204] (-) TimerEvent: {}
+[20.237405] (-) TimerEvent: {}
+[20.337578] (-) TimerEvent: {}
+[20.437788] (-) TimerEvent: {}
+[20.537985] (-) TimerEvent: {}
+[20.638187] (-) TimerEvent: {}
+[20.738373] (-) TimerEvent: {}
+[20.838663] (-) TimerEvent: {}
+[20.938829] (-) TimerEvent: {}
+[21.039114] (-) TimerEvent: {}
+[21.139308] (-) TimerEvent: {}
+[21.239493] (-) TimerEvent: {}
+[21.339669] (-) TimerEvent: {}
+[21.439836] (-) TimerEvent: {}
+[21.539993] (-) TimerEvent: {}
+[21.640140] (-) TimerEvent: {}
+[21.740290] (-) TimerEvent: {}
+[21.840451] (-) TimerEvent: {}
+[21.940599] (-) TimerEvent: {}
+[22.040799] (-) TimerEvent: {}
+[22.141046] (-) TimerEvent: {}
+[22.241252] (-) TimerEvent: {}
+[22.341423] (-) TimerEvent: {}
+[22.441582] (-) TimerEvent: {}
+[22.541732] (-) TimerEvent: {}
+[22.641894] (-) TimerEvent: {}
+[22.742057] (-) TimerEvent: {}
+[22.842215] (-) TimerEvent: {}
+[22.942355] (-) TimerEvent: {}
+[23.042580] (-) TimerEvent: {}
+[23.142743] (-) TimerEvent: {}
+[23.242962] (-) TimerEvent: {}
+[23.343147] (-) TimerEvent: {}
+[23.443311] (-) TimerEvent: {}
+[23.543473] (-) TimerEvent: {}
+[23.643622] (-) TimerEvent: {}
+[23.743771] (-) TimerEvent: {}
+[23.843949] (-) TimerEvent: {}
+[23.944115] (-) TimerEvent: {}
+[24.044421] (-) TimerEvent: {}
+[24.144662] (-) TimerEvent: {}
+[24.244812] (-) TimerEvent: {}
+[24.344969] (-) TimerEvent: {}
+[24.445126] (-) TimerEvent: {}
+[24.545272] (-) TimerEvent: {}
+[24.645431] (-) TimerEvent: {}
+[24.745583] (-) TimerEvent: {}
+[24.845733] (-) TimerEvent: {}
+[24.945898] (-) TimerEvent: {}
+[25.046064] (-) TimerEvent: {}
+[25.146237] (-) TimerEvent: {}
+[25.246442] (-) TimerEvent: {}
+[25.346597] (-) TimerEvent: {}
+[25.446768] (-) TimerEvent: {}
+[25.546971] (-) TimerEvent: {}
+[25.647411] (-) TimerEvent: {}
+[25.747711] (-) TimerEvent: {}
+[25.847975] (-) TimerEvent: {}
+[25.948218] (-) TimerEvent: {}
+[26.048366] (-) TimerEvent: {}
+[26.148541] (-) TimerEvent: {}
+[26.248717] (-) TimerEvent: {}
+[26.348877] (-) TimerEvent: {}
+[26.449051] (-) TimerEvent: {}
+[26.549221] (-) TimerEvent: {}
+[26.649346] (-) TimerEvent: {}
+[26.749533] (-) TimerEvent: {}
+[26.849728] (-) TimerEvent: {}
+[26.950109] (-) TimerEvent: {}
+[27.050335] (-) TimerEvent: {}
+[27.150579] (-) TimerEvent: {}
+[27.250789] (-) TimerEvent: {}
+[27.351028] (-) TimerEvent: {}
+[27.451345] (-) TimerEvent: {}
+[27.551566] (-) TimerEvent: {}
+[27.651814] (-) TimerEvent: {}
+[27.752101] (-) TimerEvent: {}
+[27.852290] (-) TimerEvent: {}
+[27.952497] (-) TimerEvent: {}
+[28.052679] (-) TimerEvent: {}
+[28.152862] (-) TimerEvent: {}
+[28.253052] (-) TimerEvent: {}
+[28.353233] (-) TimerEvent: {}
+[28.453438] (-) TimerEvent: {}
+[28.553614] (-) TimerEvent: {}
+[28.653800] (-) TimerEvent: {}
+[28.753994] (-) TimerEvent: {}
+[28.854256] (-) TimerEvent: {}
+[28.954589] (-) TimerEvent: {}
+[29.054804] (-) TimerEvent: {}
+[29.154990] (-) TimerEvent: {}
+[29.255166] (-) TimerEvent: {}
+[29.355374] (-) TimerEvent: {}
+[29.455556] (-) TimerEvent: {}
+[29.555780] (-) TimerEvent: {}
+[29.655968] (-) TimerEvent: {}
+[29.756151] (-) TimerEvent: {}
+[29.856379] (-) TimerEvent: {}
+[29.956557] (-) TimerEvent: {}
+[30.025637] (crop_task_vision) CommandEnded: {'returncode': 0}
+[30.034931] (crop_task_vision) JobEnded: {'identifier': 'crop_task_vision', 'rc': 0}
+[30.035348] (-) EventReactorShutdown: {}

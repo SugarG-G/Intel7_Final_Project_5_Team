@@ -38,10 +38,24 @@ ament_target_dependencies(crop_task_node
   rclcpp
 )
 
+add_executable(lidar_guard_node
+  src/lidar_guard_node.cpp
+  src/lidar_guard_main.cpp
+)
+target_include_directories(lidar_guard_node PUBLIC
+  include
+)
+ament_target_dependencies(lidar_guard_node
+  rclcpp
+  sensor_msgs
+  std_msgs
+)
+
 install(
   TARGETS
     crop_task_node_lib
     crop_task_node
+    lidar_guard_node
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib/${PROJECT_NAME}

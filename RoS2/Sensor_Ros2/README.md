@@ -165,3 +165,168 @@ ros2 launch wall_follower wall_follow.launch.py
 - `wall_follow_params.yaml`에서 원하는 거리(`desired_distance`), 속도, 코너 판단 임계값을 조정할 수 있습니다.
 - 터미널 창에서 출력되는 상태 메시지를 통해 위치·속도·지도 정보를 확인할 수 있습니다.
 - `P`: 즉시 정지, `S`: 재개, `R`: 리셋(시작 위치부터 다시 주행), `Q`: 노드 종료.
+
+Patrol 코드 동작 방식
+
+[사용자 입력]
+      │
+      ▼
+┌───────────────────────────┐
+│  Patrol Client (액션 클)  │  ← 모드/거리/반복 입력 → Goal 전송
+└────────────┬──────────────┘
+             │  (Patrol 액션)
+             ▼
+┌───────────────────────────┐
+│  Patrol Server (액션 서)  │  ← /odom 구독, /cmd_vel 발행
+│  - 사각형/삼각형/웨이포인트 │  ← /patrol/stop 구독(정지/재개)
+└────────────┬──────────────┘
+             │
+             ▼
+       TurtleBot3 Base
+
+
+[콘솔] PatrolStopDummy ──► /patrol/stop (Bool)
+             │
+      (LaserScan/Range 모니터,
+       자동 Stop→작업→Resume 시퀀스)
+
+구성 파일
+
+클라이언트: Turtlebot3PatrolClient
+
+사용자 입력을 받아 Patrol 액션 Goal 전송, 피드백/결과 표시
+
+서버: Turtlebot3PatrolServer
+
+액션 서버, /odom 기반 폐루프(P 제어) 주행(웨이포인트) + 기본 패턴(사각/삼각)
+
+/patrol/stop으로 일시 정지/재개
+
+정지/재개 더미: PatrolStopDummy
+
+콘솔 입력으로 Stop/Resume 발행, 라이다 거리 실시간 확인, 자동 시퀀스
+
+토픽 / 액션 / 메시지
+
+액션 서버: turtlebot3 (turtlebot3_msgs/action/Patrol)
+
+Goal: geometry_msgs/Point goal 사용
+
+goal.x = 모드(1:사각, 2:삼각, 3:웨이포인트)
+
+goal.y = 이동거리(m)
+
+goal.z = 반복횟수
+
+퍼블리시: /cmd_vel (geometry_msgs/Twist)
+
+구독: /odom (nav_msgs/Odometry), /patrol/stop (std_msgs/Bool)
+
+유틸 구독(옵션): /scan(sensor_msgs/LaserScan) 또는 Range 센서 토픽
+
+| 파라미터                       |        기본 | 설명                   |
+| -------------------------- | --------: | -------------------- |
+| `waypoint_yaml`            | 패키지 기본 경로 | 웨이포인트 리스트 YAML 파일 경로 |
+| `position_tolerance`       |    0.05 m | 위치 도달 허용 오차          |
+| `yaw_tolerance_deg`        |      5.0° | yaw 도달 허용 오차         |
+| `linear_kp`                |       0.2 | 선속 P 게인              |
+| `angular_kp`               |       1.0 | 각속 P 게인              |
+| `max_linear_speed`         |  0.07 m/s | 선속 상한                |
+| `max_angular_speed`        | 0.4 rad/s | 각속 상한                |
+| `heading_slowdown_gain`    |      0.85 | 헤딩 오차에 따른 선속 감속      |
+| `waypoint_timeout`         |      35 s | 웨이포인트 단일 목표 타임아웃     |
+| `final_position_tolerance` |    0.03 m | 최종 정렬 위치 오차          |
+| `final_yaw_tolerance_deg`  |      2.0° | 최종 정렬 yaw 오차         |
+| `final_timeout`            |      10 s | 최종 정렬 타임아웃           |
+
+동작 방식 상세
+클라이언트
+
+콘솔 입력으로 모드(s,t,c)와 거리/반복을 받음.
+
+Patrol.Goal에 x=모드, y=거리, z=반복을 세팅하여 액션 서버에 전송.
+
+피드백(state)을 출력하며, 결과 수신 후 종료.
+
+포인트
+
+잘못된 모드 입력 시 종료.
+
+간결한 표준 액션 클라이언트 패턴.
+
+서버
+
+초기 자세 기록: /odom 첫 수신 시 (x, y, yaw)를 initial_pose에 저장.
+
+모드별 실행
+
+사각형: go_front() + turn(90°) 4회
+
+삼각형: go_front() + turn(120°) 3회
+
+웨이포인트: YAML에서 로드한 점들을 초기 자세 기준 상대좌표로 변환해 오도메트리 기반 P 제어로 이동(위치→자세 순)
+
+정지/재개: /patrol/stop=True → 일시 정지 & Twist 0 발행, 해제 시 재개
+
+최종 정렬: 순찰 종료 후 시작 자세 근방으로 복귀(옵션)
+
+포인트
+
+웨이포인트 모드가 실제 주행에 가장 안정적(폐루프 제어).
+
+사각형/삼각형은 학습용으로 시간 기반 전진이라 실제 거리 제어는 부정확.
+
+정지/재개 더미 노드
+
+콘솔 키 입력:
+
+s: Stop(True) 발행
+
+r: Stop(False) 발행
+
+l: 라이다 최소 거리 1회 보고
+
+c: 0.5초 간격 실시간 모니터 토글
+
+q: 종료
+
+LaserScan 또는 Range를 구독해 최소 거리를 계산/표시.
+
+자동 시퀀스(옵션): 일정 거리 범위(예: 0.17~0.20m)에서 자동으로 Stop→작업(대기)→Resume.
+
+# /home/ubuntu/waypoints.yaml
+waypoints:
+  - name: A
+    position: { x: 0.50, y: 0.00 }
+    yaw_deg:  0.0
+  - name: B
+    position: { x: 0.50, y: 0.50 }
+    yaw_deg:  90.0
+  - name: C
+    position: { x: 0.00, y: 0.50 }
+    yaw_deg:  180.0
+
+
+# (추천) 웨이포인트 파일과 속도 상한을 지정
+ros2 run turtlebot3_example turtlebot3_patrol_server \
+  --ros-args \
+  -p waypoint_yaml:=/home/ubuntu/waypoints.yaml \
+  -p max_linear_speed:=0.12 \
+  -p max_angular_speed:=0.7
+
+ros2 run turtlebot3_example turtlebot3_patrol_client
+# mode: s(사각형), t(삼각형), c(웨이포인트)
+# travel_distance: (s/t에서만 사용)
+# patrol_count: 반복 횟수
+
+ros2 run turtlebot3_example patrol_stop_dummy \
+  --ros-args -p laser_topic:=/scan \
+             -p laser_topic_type:=scan \
+             -p laser_detection_distance:=0.5 \
+             -p auto_sequence_enabled:=true
+# 프롬프트: [s]top / [r]esume / [l]idar check / [c] monitor / [q]uit
+1) cmd_vel 퍼블리셔 이름 오타
+
+문제: _final_align_to_start()에서 self.cmd_pub.publish(cmd) 사용
+
+정답: self.cmd_vel_pub.publish(cmd)

@@ -2,6 +2,7 @@
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles/crop_task_vision_uninstall.dir
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles/crop_task_node_lib.dir
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles/crop_task_node.dir
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles/lidar_guard_node.dir
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles/test.dir
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles/edit_cache.dir
 /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision/CMakeFiles/rebuild_cache.dir

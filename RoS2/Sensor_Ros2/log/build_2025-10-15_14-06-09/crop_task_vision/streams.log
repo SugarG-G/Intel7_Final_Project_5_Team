@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision -- -j24 -l24
+[0.046s] [ 28%] Built target crop_task_node_lib
+[0.048s] [ 71%] Built target lidar_guard_node
+[0.063s] [100%] Built target crop_task_node
+[0.071s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision -- -j24 -l24
+[0.077s] Invoking command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision
+[0.082s] -- Install configuration: ""
+[0.082s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/libcrop_task_node_lib.a
+[0.082s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/crop_task_node
+[0.082s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/lib/crop_task_vision/lidar_guard_node
+[0.082s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/lidar_guard_node.hpp
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/include/crop_task_vision/crop_task_node.hpp
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/config
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/config/crop_task_params.yaml
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/library_path.sh
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/library_path.dsv
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/package_run_dependencies/crop_task_vision
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/parent_prefix_path/crop_task_vision
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/ament_prefix_path.dsv
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/path.sh
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/environment/path.dsv
+[0.083s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.bash
+[0.084s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.sh
+[0.084s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.zsh
+[0.084s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/local_setup.dsv
+[0.084s] -- Installing: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/package.dsv
+[0.084s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/ament_index/resource_index/packages/crop_task_vision
+[0.084s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.084s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/ament_cmake_export_libraries-extras.cmake
+[0.085s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/crop_task_visionConfig.cmake
+[0.085s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/cmake/crop_task_visionConfig-version.cmake
+[0.085s] -- Up-to-date: /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/crop_task_vision/share/crop_task_vision/package.xml
+[0.085s] Invoked command in '/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/install/wall_follower:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/build/crop_task_vision

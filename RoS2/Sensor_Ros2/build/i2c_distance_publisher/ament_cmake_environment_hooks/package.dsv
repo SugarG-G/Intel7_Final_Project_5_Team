@@ -1,0 +1,4 @@
+source;share/i2c_distance_publisher/local_setup.bash
+source;share/i2c_distance_publisher/local_setup.dsv
+source;share/i2c_distance_publisher/local_setup.sh
+source;share/i2c_distance_publisher/local_setup.zsh

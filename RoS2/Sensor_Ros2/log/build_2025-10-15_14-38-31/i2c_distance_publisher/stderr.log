@@ -1,0 +1,7 @@
+/home/ubuntu/Intel_study/Intel7_Final_Project_5_Team/RoS2/Sensor_Ros2/src/i2c_distance_publisher/src/i2c_distance_node.cpp:10:10: fatal error: i2c/smbus.h: 그런 파일이나 디렉터리가 없습니다
+   10 | #include <i2c/smbus.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/i2c_distance_node.dir/build.make:76: CMakeFiles/i2c_distance_node.dir/src/i2c_distance_node.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/i2c_distance_node.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2
