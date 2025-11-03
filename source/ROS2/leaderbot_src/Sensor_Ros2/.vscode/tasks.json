@@ -1,0 +1,68 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: Configure (debug)",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["--preset", "debug"],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "${env:HOME}/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin:${env:PATH}"
+                }
+            }
+        },
+        {
+            "label": "CMake: Build (debug)",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["--build", "--preset", "debug"],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "${env:HOME}/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin:${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "CMake: Clean (debug)",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["--build", "--preset", "debug", "--target", "clean"],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "${env:HOME}/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin:${env:PATH}"
+                }
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "CubeIDE: Import Project",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/cubeide-headless-build.sh",
+            "args": ["-import", "${workspaceFolder}"],
+            "problemMatcher": []
+        },
+        {
+            "label": "CubeIDE: Build (Debug)",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/cubeide-headless-build.sh",
+            "args": ["-build", "Sensor_Ros2/Debug"],
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "CubeIDE: Clean + Build (Debug)",
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/cubeide-headless-build.sh",
+            "args": ["-cleanBuild", "Sensor_Ros2/Debug"],
+            "problemMatcher": "$gcc"
+        }
+    ]
+}

@@ -1,4 +1,0 @@
-[console_scripts]
-turtlebot3_aruco_tracker = turtlebot3_aruco_tracker.turtlebot3_aruco_tracker:main
-turtlebot3_camera_decoder = turtlebot3_aruco_tracker.camera_decoder:main
-

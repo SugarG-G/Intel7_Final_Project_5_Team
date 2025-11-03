@@ -1,3 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-/home/ubuntu/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
-/home/ubuntu/turtlebot3_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake

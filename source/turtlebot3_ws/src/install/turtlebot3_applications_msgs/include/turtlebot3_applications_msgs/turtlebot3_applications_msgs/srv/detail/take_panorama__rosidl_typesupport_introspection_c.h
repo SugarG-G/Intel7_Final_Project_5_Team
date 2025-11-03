@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_applications_msgs/rosidl_typesupport_introspection_c/turtlebot3_applications_msgs/srv/detail/take_panorama__rosidl_typesupport_introspection_c.h

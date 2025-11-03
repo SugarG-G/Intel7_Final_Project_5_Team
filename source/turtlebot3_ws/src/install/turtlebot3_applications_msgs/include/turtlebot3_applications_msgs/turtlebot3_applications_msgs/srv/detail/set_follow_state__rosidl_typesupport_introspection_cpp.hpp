@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_applications_msgs/rosidl_typesupport_introspection_cpp/turtlebot3_applications_msgs/srv/detail/set_follow_state__rosidl_typesupport_introspection_cpp.hpp

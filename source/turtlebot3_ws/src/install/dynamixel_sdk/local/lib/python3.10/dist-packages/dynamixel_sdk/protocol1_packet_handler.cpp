@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/protocol1_packet_handler.cpp

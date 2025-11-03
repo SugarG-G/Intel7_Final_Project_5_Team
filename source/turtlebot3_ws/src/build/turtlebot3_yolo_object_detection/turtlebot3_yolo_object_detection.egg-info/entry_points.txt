@@ -1,3 +1,0 @@
-[console_scripts]
-turtlebot3_yolo_object_detection = turtlebot3_yolo_object_detection.turtlebot3_yolo_object_detection:main
-

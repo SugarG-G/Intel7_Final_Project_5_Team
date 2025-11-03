@@ -1,3 +1,0 @@
-[console_scripts]
-turtlebot3_automatic_parking_vision = turtlebot3_automatic_parking_vision.turtlebot3_automatic_parking_vision:main
-

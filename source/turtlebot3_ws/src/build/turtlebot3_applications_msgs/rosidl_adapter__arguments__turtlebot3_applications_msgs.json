@@ -1,8 +1,0 @@
-{
-  "package_name": "turtlebot3_applications_msgs",
-  "non_idl_tuples": [
-    "/home/ubuntu/turtlebot3_ws/src/turtlebot3_applications_msgs:msg/PanoramaImg.msg",
-    "/home/ubuntu/turtlebot3_ws/src/turtlebot3_applications_msgs:srv/SetFollowState.srv",
-    "/home/ubuntu/turtlebot3_ws/src/turtlebot3_applications_msgs:srv/TakePanorama.srv"
-  ]
-}

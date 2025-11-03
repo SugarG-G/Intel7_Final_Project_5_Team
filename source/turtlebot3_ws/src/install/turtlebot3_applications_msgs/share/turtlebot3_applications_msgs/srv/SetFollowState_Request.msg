@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_applications_msgs/rosidl_cmake/srv/SetFollowState_Request.msg

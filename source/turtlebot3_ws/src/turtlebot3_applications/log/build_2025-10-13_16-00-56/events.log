@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000263] (-) JobUnselected: {'identifier': 'turtlebot3_applications'}
-[0.000286] (-) JobUnselected: {'identifier': 'turtlebot3_aruco_tracker'}
-[0.000294] (-) JobUnselected: {'identifier': 'turtlebot3_automatic_parking'}
-[0.000300] (-) JobUnselected: {'identifier': 'turtlebot3_automatic_parking_vision'}
-[0.000306] (-) JobUnselected: {'identifier': 'turtlebot3_follower'}
-[0.000312] (-) JobUnselected: {'identifier': 'turtlebot3_panorama'}
-[0.000317] (-) JobUnselected: {'identifier': 'turtlebot3_yolo_object_detection'}
-[0.000555] (-) EventReactorShutdown: {}

@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_applications_msgs/rosidl_generator_c/turtlebot3_applications_msgs/srv/detail/set_follow_state__type_support.h

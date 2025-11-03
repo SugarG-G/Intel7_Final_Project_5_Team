@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_msgs/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h

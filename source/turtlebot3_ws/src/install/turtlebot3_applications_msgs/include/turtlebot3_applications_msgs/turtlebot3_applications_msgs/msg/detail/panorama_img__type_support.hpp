@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/build/turtlebot3_applications_msgs/rosidl_generator_cpp/turtlebot3_applications_msgs/msg/detail/panorama_img__type_support.hpp

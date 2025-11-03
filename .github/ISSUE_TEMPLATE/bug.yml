@@ -1,0 +1,51 @@
+name: 🐞 버그 리포트
+description: 예기치 않은 동작을 보고합니다
+title: "[버그] "
+labels: ["버그"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 요약
+      description: 무엇이 문제인가요? 한두 문장으로 요약해 주세요.
+      placeholder: 예) 설정 저장 시 앱이 종료됩니다.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 절차
+      description: 어떻게 하면 재현되나요? 번호로 적어 주세요.
+      placeholder: |
+        1. 설정 화면 진입
+        2. '저장' 클릭
+        3. 앱 크래시
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 동작
+      placeholder: 예) 저장 후 설정 화면이 정상적으로 닫혀야 합니다.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 동작/로그
+      placeholder: 에러 메시지, 스택 트레이스, 스크린샷 등을 첨부해 주세요.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 버전/환경
+      placeholder: 펌웨어 v1.2.3 / Ubuntu 22.04 / STM32F411 / 라즈베리파이 OS 등
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 제출 전 확인
+      options:
+        - label: 최신 main/firmware에서 재현 확인
+        - label: 중복 이슈 검색 완료
+

@@ -1,1 +1,0 @@
-/home/ubuntu/turtlebot3_ws/src/turtlebot3_applications/turtlebot3_automatic_parking/launch/turtlebot3_automatic_parking.launch.py
