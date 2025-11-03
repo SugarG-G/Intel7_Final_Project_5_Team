@@ -1,0 +1,25 @@
+waypoints:
+  - name: point1
+    position: {x: 0.0, y: 0.0}
+    yaw_deg: 0.0
+  - name: point2
+    position: {x: 1.35, y: 0.0}
+    yaw_deg: -45.0
+  - name: point3
+    position: {x: 1.8, y: -0.45}
+    yaw_deg: -90.0
+  - name: point4
+    position: {x: 1.8, y: -1.35}
+    yaw_deg: -135.0
+  - name: point5
+    position: {x: 1.35, y: -1.8}
+    yaw_deg: 180.0
+  - name: point6
+    position: {x: 0.45, y: -1.8}
+    yaw_deg: 135.0
+  - name: point7
+    position: {x: 0.0, y: -1.35}
+    yaw_deg: 90.0
+  - name: point8
+    position: {x: 0.0, y: 0.0}
+    yaw_deg: 0.0
