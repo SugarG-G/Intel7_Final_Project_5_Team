@@ -1,8 +1,0 @@
-mock_main_odom:
-  ros__parameters:
-    frame_id: map
-    child_frame_id: main_base_link
-    linear_speed: 0.3
-    angular_speed: 0.2
-    straight_duration: 8.0
-    loop_radius: 1.5

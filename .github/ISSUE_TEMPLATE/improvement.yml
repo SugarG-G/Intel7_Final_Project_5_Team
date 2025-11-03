@@ -1,0 +1,32 @@
+name: 🛠 기능 개선 제안
+description: 기존 기능을 더 좋게 만듭니다(리팩터링/성능/UX 등)
+title: "[개선] "
+labels: ["기능 개선"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: 현재 상태/문제점
+      placeholder: 무엇이 불편/느림/복잡한가요?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 개선 내용
+      placeholder: 어떻게 바꾸고 싶은가요?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 수용 기준(측정 가능한 목표)
+      placeholder: 지연 50ms → 15ms, 플래시 사용량 128KB → 96KB 등
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 리스크/마이그레이션
+      placeholder: 호환성 이슈, 롤백 계획 등
+

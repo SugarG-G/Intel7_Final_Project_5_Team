@@ -1,6 +1,0 @@
-{
-  "package_name": "robot_arm",
-  "non_idl_tuples": [
-    "/home/ros/turtlebot3_ws/src/robot_arm:srv/RobotArmCommand.srv"
-  ]
-}

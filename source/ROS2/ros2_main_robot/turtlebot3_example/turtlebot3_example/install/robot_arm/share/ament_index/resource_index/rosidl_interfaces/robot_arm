@@ -1,4 +1,0 @@
-srv/RobotArmCommand.idl
-srv/RobotArmCommand.srv
-srv/RobotArmCommand_Request.msg
-srv/RobotArmCommand_Response.msg
