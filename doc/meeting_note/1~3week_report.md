@@ -99,6 +99,15 @@ git checkout 본인계정명
 이후 git push 
 만으로 본인 브랜치에 push할 수 있습니다.
 
+PR
+1. 방금 푸시한 브랜치에 깃허브에서 접근해둡니다.
+2. Compare & Pull request 버튼이 뜹니다.
+3. 누르세요. PR 작성페이지로 이동
+4. PR 작성페이지에서 본인이 어떤 작업을 수행해서 PR하는지 작성하세요.
+5. Create pull request 신청후 Merge 대기 상태를 유지하세요.
+6. 리더의 승인으로 Merge 완료!
+![alt text](image.png)
+![alt text](image-1.png)
 ---
 
 ### 주제 분야 아이디어

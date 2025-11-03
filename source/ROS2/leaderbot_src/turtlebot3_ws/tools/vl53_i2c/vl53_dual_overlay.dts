@@ -1,0 +1,29 @@
+/dts-v1/;
+/plugin/;
+
+/{
+    compatible = "brcm,bcm2835";
+
+    fragment@0 {
+        target = <&i2c1>;
+        __overlay__ {
+            status = "okay";
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            vl53_a: vl53l0x@2a {
+                compatible = "st,vl53l0x";
+                reg = <0x2a>;
+                status = "disabled";
+                xshut-gpios = <&gpio 17 0>; /* GPIO17 */
+            };
+
+            vl53_b: vl53l0x@2b {
+                compatible = "st,vl53l0x";
+                reg = <0x2b>;
+                status = "disabled";
+                xshut-gpios = <&gpio 27 0>; /* GPIO27 */
+            };
+        };
+    };
+};
