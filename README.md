@@ -106,7 +106,7 @@
 
 ## 소감: 오민지
 ![page-28](doc/ppt/투게더v1_pages/page-28.png)
-- 펌웨어~ROS~AI 실무형 학습, 시스템 관점의 안정성 고려.
+- 임베디드 및 AI 실무형 학습, 시스템 관점의 안정성 고려.
 
 ## 소감: 황진영
 ![page-29](doc/ppt/투게더v1_pages/page-29.png)
