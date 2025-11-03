@@ -1,0 +1,9 @@
+image: cleaned_up_map.pgm
+resolution: 0.05
+origin:
+- -1.1
+- -3.46
+- 0.0
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

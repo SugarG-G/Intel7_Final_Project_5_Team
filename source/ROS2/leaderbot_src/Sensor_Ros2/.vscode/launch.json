@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex-Debug (ST-LINK)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/debug/Sensor_Ros2.elf",
+            "servertype": "stlink",
+            "serverpath": "${env:HOME}/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.linux64_2.2.200.202505060755/tools/bin/ST-LINK_gdbserver",
+            "device": "STM32F411RETx",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "svdFile": "${env:HOME}/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.productdb.debug_2.2.200.202506131328/resources/cmsis/STMicroelectronics_CMSIS_SVD/STM32F411.svd",
+            "gdbPath": "${env:HOME}/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/arm-none-eabi-gdb",
+            "svdLoadAddress": true,
+            "connectUnderReset": false,
+            "preLaunchTask": "CMake: Build (debug)"
+        }
+    ]
+}
