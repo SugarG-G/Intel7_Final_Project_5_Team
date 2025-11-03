@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-# 인텔 7기 최종 프로젝트 깃허브 #
-## 이런저런 패키지 짬통
-
-### [STOP] Grove Time of Flight Publisher node
-https://github.com/SugarG-G/Intel7_Final_Project_5_Team/tree/pang0620/source/ros2_ws/src/grove_tof_simple
-
-### [WIP] Parking... a Lot
-https://github.com/SugarG-G/Intel7_Final_Project_5_Team/tree/pang0620/source/ros2_ws/src/parking_a_lot
-
-
-=======
 # 인텔 엣지 AI 최종 프로젝트 5팀
 ## 투게더 v1 — 프로젝트 설명
 군집 활동을 통한 자율주행 경작지 관리 로봇
@@ -127,4 +115,3 @@ https://github.com/SugarG-G/Intel7_Final_Project_5_Team/tree/pang0620/source/ros
 ## 소감: 윤치영
 ![page-30](doc/ppt/투게더v1_pages/page-30.png)
 - PM 경험(분담·일정·의사결정), BSP/임베디드 이해 심화.
->>>>>>> 0e99c741a4d5fe54ce0e5a6145f0b8f4e6a3e34c
